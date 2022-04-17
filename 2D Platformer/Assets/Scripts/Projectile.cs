@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class Projectile : MonoBehaviour
 {
@@ -33,11 +32,13 @@ public class Projectile : MonoBehaviour
         _hit = true;
         _collider.enabled = false;
         _animator.SetTrigger("explode");
+        if (col.CompareTag("Enemy"))
+            col.GetComponent<Health>().TakeDamage(1);
     }
 
     public void SetDirection(float direction)
     {
-        _lifetime = 0;
+        _lifetime = 0; 
         _direction = direction;
         gameObject.SetActive(true);
         _hit = false;
