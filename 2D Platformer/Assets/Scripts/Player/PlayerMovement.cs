@@ -17,14 +17,14 @@ public class PlayerMovement : MonoBehaviour
     {
         var horizontalInput = Input.GetAxis("Horizontal");
         _body.velocity = new Vector2(horizontalInput * speed, _body.velocity.y);
-        
+
         if (horizontalInput > .01f)
             transform.localScale = Vector3.one;
         else if (horizontalInput < -.01f)
             transform.localScale = new Vector3(-1, 1, 1);
 
         if (Input.GetKey(KeyCode.Space) && _isGrounded) Jump();
-        
+
         _animator.SetBool("run", horizontalInput != 0);
         _animator.SetBool("grounded", _isGrounded);
     }
@@ -39,9 +39,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Ground"))
-        {
             _isGrounded = true;
-        }
     }
 
     public bool CanShoot()

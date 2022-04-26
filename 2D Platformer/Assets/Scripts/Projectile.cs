@@ -4,6 +4,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float damage;
     private bool _hit;
     private float _direction;
     private float _lifetime;
@@ -33,7 +34,7 @@ public class Projectile : MonoBehaviour
         _collider.enabled = false;
         _animator.SetTrigger("explode");
         if (col.CompareTag("Enemy"))
-            col.GetComponent<Health>().TakeDamage(1);
+            col.GetComponent<Health>().TakeDamage(damage);
     }
 
     public void SetDirection(float direction)

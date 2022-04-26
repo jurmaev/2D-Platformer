@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
@@ -8,6 +9,10 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject[] fireballs;
     private float _cooldownTimer = Mathf.Infinity;
+    [SerializeField] private Transform attackPoint;
+    [SerializeField] private float attackRange;
+    [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private float meleeDamage;
 
     private void Awake()
     {
@@ -17,16 +22,27 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButton(0) && _cooldownTimer > attackCooldown && _playerMovement.CanShoot())
-            Shoot();
+        if (Input.GetKeyDown(KeyCode.Mouse1) && _cooldownTimer > attackCooldown && _playerMovement.CanShoot())
+        {
+            _cooldownTimer = 0;
+            _animator.SetTrigger("shoot");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+            _animator.SetTrigger("attack");
         _cooldownTimer += Time.deltaTime;
+    }
+
+    private void Attack()
+    {
+        var hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        foreach (var enemy in hitEnemies)
+            enemy.GetComponent<Health>().TakeDamage(meleeDamage);
     }
 
     private void Shoot()
     {
-        _animator.SetTrigger("shoot");
         _cooldownTimer = 0;
-
         fireballs[FindFireball()].transform.position = firePoint.position;
         fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
@@ -37,5 +53,10 @@ public class PlayerAttack : MonoBehaviour
             if (!fireballs[i].activeInHierarchy)
                 return i;
         return 0;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

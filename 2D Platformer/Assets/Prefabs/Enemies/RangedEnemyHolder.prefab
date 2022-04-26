@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4979585016705832682}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.1116447, y: 0.013885796, z: -1.9465511}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79d1891565edf924dbb4f0e13f328c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemy: {fileID: 5634823477207080292}
+  enemy: {fileID: 5634823477207080292}
 --- !u!1 &4979585017802372960
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,8 +262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  _iFramesDuration: 0
-  _numberOfFlashes: 0
+  iFramesDuration: 0
+  numberOfFlashes: 0
   components:
   - {fileID: 5634823477207080344}
   - {fileID: 0}
@@ -279,11 +279,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e16d828b6068c2468bcb359c2b46a2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackCooldown: 1
-  _range: 13
-  _damage: 1
-  _firepoint: {fileID: 4979585017802372961}
-  _fireballs:
+  attackCooldown: 1
+  range: 10
+  damage: 1
+  firepoint: {fileID: 4979585017802372961}
+  fireballs:
   - {fileID: 6785841157174467045}
   - {fileID: 8942858972368740882}
   - {fileID: 8942858972271384833}
@@ -294,8 +294,8 @@ MonoBehaviour:
   - {fileID: 8942858972142388249}
   - {fileID: 8942858972365284146}
   - {fileID: 8942858972191325485}
-  _colliderDistance: 0.09
-  _boxCollider: {fileID: 5634823477207080295}
+  colliderDistance: 0.09
+  boxCollider: {fileID: 5634823477207080295}
   playerLayer:
     serializedVersion: 2
     m_Bits: 1024

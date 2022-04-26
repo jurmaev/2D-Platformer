@@ -1,27 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TreeEditor;
 using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    private float _length, _startpos;
+    private float length, startpos;
+    [SerializeField] private GameObject camera;
+    [SerializeField] private float parallaxEffect;
 
-    public GameObject cam;
-
-    [SerializeField] public float parallaxEffect;
-    void Start()
+    private void Start()
     {
-        _startpos = transform.position.x;
-        _length = GetComponent<SpriteRenderer>().bounds.size.x;  
+        startpos = transform.position.x;
+        length = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        var temp = cam.transform.position.x * (1 - parallaxEffect);
-        var dist = (cam.transform.position.x * parallaxEffect);
-
-        transform.position = new Vector3(_startpos + dist, transform.position.y, transform.position.z);
-        if (temp > _startpos + _length) _startpos += _length;
-        else if (temp < _startpos - _length) _startpos -= _length;
+        var temp = (camera.transform.position.x * (1 - parallaxEffect));
+        var dist = camera.transform.position.x * parallaxEffect;
+        transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
+        if (temp > startpos + length) startpos += length;
+        else if (temp < startpos - length) startpos -= length;
     }
 }
