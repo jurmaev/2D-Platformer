@@ -144,9 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ac94b0cea3015428de63b73cabe1a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
-  _iFramesDuration: 0
-  _numberOfFlashes: 0
+  maxHealth: 50
+  iFramesDuration: 0
+  numberOfFlashes: 0
   components:
   - {fileID: 1108452817468987482}
 --- !u!114 &1108452817468987482
@@ -162,8 +162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 1
-  range: 2
-  damage: 1
+  range: 1.7
+  damage: 5
   colliderDistance: 0.13
   boxCollider: {fileID: 1108452817468987476}
   playerLayer:

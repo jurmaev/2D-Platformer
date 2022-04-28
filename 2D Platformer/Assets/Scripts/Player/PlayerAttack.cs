@@ -14,6 +14,9 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private LayerMask enemyLayers;
     [SerializeField] private float meleeDamage;
 
+    [SerializeField] private float attackRate;
+    private float nextAttackTime;
+
     private void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -28,8 +31,12 @@ public class PlayerAttack : MonoBehaviour
             _animator.SetTrigger("shoot");
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && Time.time >= nextAttackTime)
+        {
+            nextAttackTime = Time.time + 1 / attackRate;
             _animator.SetTrigger("attack");
+        }
+
         _cooldownTimer += Time.deltaTime;
     }
 

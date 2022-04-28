@@ -259,7 +259,8 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 2048
-  meleeDamage: 1
+  meleeDamage: 5
+  attackRate: 2
 --- !u!114 &5938455692321268923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,9 +273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34ac94b0cea3015428de63b73cabe1a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
-  iFramesDuration: 0
-  numberOfFlashes: 0
+  maxHealth: 100
+  iFramesDuration: 1.5
+  numberOfFlashes: 2
   components:
   - {fileID: 5938455692321268922}
   - {fileID: 5938455692321268912}

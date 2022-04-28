@@ -8,7 +8,7 @@ public class HealthCollectible : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            col.GetComponent<Health>().AddHealth(healthValue);
+            col.GetComponent<Health>().Heal(healthValue);
             gameObject.SetActive(false);
         }
 

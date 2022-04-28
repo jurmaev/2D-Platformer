@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [Header("Health")] [SerializeField] private float startingHealth;
+    [Header("Health")] [SerializeField] private float maxHealth;
     public float CurrentHealth { get; private set; }
     private Animator _anim;
     private bool _dead;
@@ -15,9 +15,10 @@ public class Health : MonoBehaviour
     [Header("Components")] [SerializeField]
     private Behaviour[] components;
 
+
     private void Awake()
     {
-        CurrentHealth = startingHealth;
+        CurrentHealth = maxHealth;
         _anim = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -41,10 +42,15 @@ public class Health : MonoBehaviour
             _dead = true;
         }
     }
-
-    public void AddHealth(float value)
+    
+    public float GetMaxHealth()
     {
-        CurrentHealth = Mathf.Clamp(CurrentHealth + value, 0, startingHealth);
+        return maxHealth;
+    }
+
+    public void Heal(float value)
+    {
+        CurrentHealth = Mathf.Clamp(CurrentHealth + value, 0, maxHealth);
     }
 
     private IEnumerator Invunerability()
@@ -63,8 +69,8 @@ public class Health : MonoBehaviour
 
     private void Deactivate()
     {
-        gameObject.SetActive(false);
         gameObject.GetComponent<Collider2D>().enabled = false;
+        gameObject.SetActive(false);
     }
 
     public bool IsDead()
