@@ -34,6 +34,7 @@ public class MeleeEnemy : MonoBehaviour
         if (PlayerInSight() && _cooldownTimer >= attackCooldown)
         {
             _cooldownTimer = 0;
+            _animator.SetBool("moving", false);
             _animator.SetTrigger("meleeAttack");
         }
 
