@@ -15,17 +15,20 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float meleeDamage;
 
     [SerializeField] private float attackRate;
+    private Mana playerMana;
+    [SerializeField] private float shootingCost;
     private float nextAttackTime;
 
     private void Awake()
     {
+        playerMana = GetComponent<Mana>();
         _animator = GetComponent<Animator>();
         _playerMovement = GetComponent<PlayerMovement>();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1) && _cooldownTimer > attackCooldown && _playerMovement.CanShoot())
+        if (Input.GetKeyDown(KeyCode.Mouse1) && _cooldownTimer > attackCooldown && _playerMovement.CanShoot() && playerMana.SpendMana(shootingCost))
         {
             _cooldownTimer = 0;
             _animator.SetTrigger("shoot");
