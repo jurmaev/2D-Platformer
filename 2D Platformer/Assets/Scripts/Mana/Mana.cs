@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml;
 using UnityEngine;
 
 public class Mana : MonoBehaviour
@@ -11,7 +7,6 @@ public class Mana : MonoBehaviour
     public float CurrentMana { get; private set; }
     
     
-    // Start is called before the first frame update
     private void Awake()
     {
         CurrentMana = maxMana;
@@ -30,7 +25,7 @@ public class Mana : MonoBehaviour
 
     public void RestoreMana(float mana)
     {
-        CurrentMana = (CurrentMana + mana) % maxMana;
+        CurrentMana = Mathf.Clamp(CurrentMana + mana, 0, maxMana);
     }
 
     public float GetMaxMana()

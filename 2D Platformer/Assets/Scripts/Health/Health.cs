@@ -6,7 +6,7 @@ public class Health : MonoBehaviour
     [Header("Health")] [SerializeField] private float maxHealth;
     public float CurrentHealth { get; private set; }
     private Animator _anim;
-    private bool _dead;
+    public bool _dead { get; private set; }
 
     [Header("iFrames")] [SerializeField] private float iFramesDuration;
     [SerializeField] private float numberOfFlashes;
@@ -34,13 +34,18 @@ public class Health : MonoBehaviour
         }
         else if (!_dead)
         {
-            _anim.SetTrigger("die");
-            
-            foreach (var component in components)
-                component.enabled = false;
-
-            _dead = true;
+            Die();
         }
+    }
+
+    public void Die()
+    {
+        _anim.SetTrigger("die");
+            
+        foreach (var component in components)
+            component.enabled = false;
+
+        _dead = true;
     }
     
     public float GetMaxHealth()
@@ -71,10 +76,5 @@ public class Health : MonoBehaviour
     {
         gameObject.GetComponent<Collider2D>().enabled = false;
         gameObject.SetActive(false);
-    }
-
-    public bool IsDead()
-    {
-        return _dead;
     }
 }

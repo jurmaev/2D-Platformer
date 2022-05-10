@@ -20,7 +20,7 @@ public class MeleeEnemy : MonoBehaviour
     private Animator _animator;
     private Health _playerHealth;
     private EnemyPatrol _enemyPatrol;
-
+    
     private void Awake()
     {
         _animator = GetComponent<Animator>();

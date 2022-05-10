@@ -15,7 +15,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float meleeDamage;
 
     [SerializeField] private float attackRate;
-    private Mana playerMana;
+    public Mana playerMana { get; private set; }
     [SerializeField] private float shootingCost;
     private float nextAttackTime;
 
@@ -47,7 +47,10 @@ public class PlayerAttack : MonoBehaviour
     {
         var hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (var enemy in hitEnemies)
-            enemy.GetComponent<Health>().TakeDamage(meleeDamage);
+        {
+            var enemyHealth = enemy.GetComponent<Health>();
+            enemyHealth.TakeDamage(meleeDamage);
+        }
     }
 
     private void Shoot()
