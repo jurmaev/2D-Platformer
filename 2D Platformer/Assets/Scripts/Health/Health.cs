@@ -41,13 +41,14 @@ public class Health : MonoBehaviour
     public void Die()
     {
         _anim.SetTrigger("die");
-            
+        if (gameObject.CompareTag("Enemy"))
+            FindObjectOfType<PlayerAttack>().playerMana.RestoreMana(maxHealth / 5);
         foreach (var component in components)
             component.enabled = false;
 
         _dead = true;
     }
-    
+
     public float GetMaxHealth()
     {
         return maxHealth;
