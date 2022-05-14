@@ -30,6 +30,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
+        transform.position = new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
         _hit = true;
         _collider.enabled = false;
         _animator.SetTrigger("explode");
