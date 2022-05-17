@@ -15,11 +15,11 @@ C:/Users/jurmaev/UnityProjects/2D-Platformer/2D Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57118
+57691
 Successfully changed project path to: C:/Users/jurmaev/UnityProjects/2D-Platformer/2D Platformer
 C:/Users/jurmaev/UnityProjects/2D-Platformer/2D Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,90 +35,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003477 seconds.
+Registered in 0.003296 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
+- Completed reload, in  0.732 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1158ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (913ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (325ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (203ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (26ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004347 seconds.
+Registered in 0.008303 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.182 seconds
+- Completed reload, in  1.706 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2184ms)
-		BeginReloadAssembly (275ms)
+	ReloadAssembly (1708ms)
+		BeginReloadAssembly (243ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1776ms)
-			LoadAssemblies (174ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1382ms)
+			LoadAssemblies (193ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (584ms)
+			SetupTypeCache (456ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (628ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (542ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.8 MB.
-System memory in use after: 97.7 MB.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.1 MB.
+System memory in use after: 100.1 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2659.
-Total: 5.275500 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.084800 ms MarkObjects: 4.795700 ms  DeleteObjects: 0.187700 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2661.
+Total: 5.195200 ms (FindLiveObjects: 0.442000 ms CreateObjectMapping: 0.181400 ms MarkObjects: 4.299400 ms  DeleteObjects: 0.270000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,349 +133,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Ninja Files/Ninja PNG/Parts/4.png
-  artifactKey: Guid(f903d1b2fe6a25041a892be301d187e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ninja Files/Ninja PNG/Parts/4.png using Guid(f903d1b2fe6a25041a892be301d187e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9663f3cb09d6f41ac5eaaa36ca9ecf78') in 0.230069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000758 seconds.
-  path: Assets/Sprites/The Dawn/The Dawn/Layers/8.png
-  artifactKey: Guid(9794cd16a0dd63642abe439db3b85bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/The Dawn/The Dawn/Layers/8.png using Guid(9794cd16a0dd63642abe439db3b85bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c806cc83dbccf992d89142a5f76808') in 0.068598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/ParallaxBackground/Textures/Background.png
-  artifactKey: Guid(1267eefc4be8956408190a7f5f34c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParallaxBackground/Textures/Background.png using Guid(1267eefc4be8956408190a7f5f34c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44888a32a18b0c84717ca1d89eeaab34') in 0.037914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Flying eye/Attack.png
-  artifactKey: Guid(0c9b60925a0424b47b8fd3100d628e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Flying eye/Attack.png using Guid(0c9b60925a0424b47b8fd3100d628e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554149a5aefe8f2c862de3878c016b43') in 0.045529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/All Characters.png
-  artifactKey: Guid(b74e8a1c79c9c67479ef8f63364f90f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/All Characters.png using Guid(b74e8a1c79c9c67479ef8f63364f90f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc69a347511141cdc3142d167011659') in 0.048447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Sprites/The Dawn/The Dawn/Layers/2.png
-  artifactKey: Guid(b03f6c0d8bdb5324cbf5bba3b034ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/The Dawn/The Dawn/Layers/2.png using Guid(b03f6c0d8bdb5324cbf5bba3b034ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1fb0a543733271fe1230af28de0361') in 0.041744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Mushroom/Attack.png
-  artifactKey: Guid(79b249f3f0ddf1b4daf3bd964c01ff3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Mushroom/Attack.png using Guid(79b249f3f0ddf1b4daf3bd964c01ff3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3436595a1c80c6d9cda1a2a469ccbc07') in 0.034954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Attack.png
-  artifactKey: Guid(d4bbccacc1c85f549bc7d349a9126b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Goblin/Attack.png using Guid(d4bbccacc1c85f549bc7d349a9126b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca604e708ec79331abae3742f269b92') in 0.036277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Sprites/Background_Hills_v1.0/_PNG/background2.png
-  artifactKey: Guid(b9bef3c9fb249d343a43590d21661f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background_Hills_v1.0/_PNG/background2.png using Guid(b9bef3c9fb249d343a43590d21661f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae65c5c67726b1c1cb585707257616f') in 0.034239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Sprites/The Dawn/The Dawn/Layers/3.png
-  artifactKey: Guid(e9a8f5e70e779ea4196707716306cce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/The Dawn/The Dawn/Layers/3.png using Guid(e9a8f5e70e779ea4196707716306cce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e584cb9e88e46a1d154519bdeed6fa') in 0.042293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/Sprites/The Dawn/The Dawn/Layers/1.png
-  artifactKey: Guid(31673eace02e1a445a6f5d6f49fbc795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/The Dawn/The Dawn/Layers/1.png using Guid(31673eace02e1a445a6f5d6f49fbc795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba364cf4a017a89b1c7f434c58e623cf') in 0.033503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Sprites/The Dawn/The Dawn/Layers/7.png
-  artifactKey: Guid(04bcf8f71e05bb643a4659b980ecaf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/The Dawn/The Dawn/Layers/7.png using Guid(04bcf8f71e05bb643a4659b980ecaf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb24306c3b810e7aadcb86c53a8a6697') in 0.040907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Sprites/The Dawn/The Dawn/Layers/5.png
-  artifactKey: Guid(60879dc23f81b0d489ade1bf5dc8da06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/The Dawn/The Dawn/Layers/5.png using Guid(60879dc23f81b0d489ade1bf5dc8da06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614dd56b2186ec30ab50e384d33f2739') in 0.049472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Sprites/The Dawn/The Dawn/Layers/4.png
-  artifactKey: Guid(e17451fa94e10ed42acd2cb4e57ecbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/The Dawn/The Dawn/Layers/4.png using Guid(e17451fa94e10ed42acd2cb4e57ecbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ad56608b3dd4971c5ab846fc9b3979') in 0.041713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Dragon Warrior PNG/attack_02.png
-  artifactKey: Guid(2ac0bdb1f72273446853e8d81225c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Dragon Warrior PNG/attack_02.png using Guid(2ac0bdb1f72273446853e8d81225c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8d785354eec779ce43842ed686de86') in 0.041038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/Sprites/Square.png
-  artifactKey: Guid(6f2a7d539b657084a9bcd4ab7061decf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Square.png using Guid(6f2a7d539b657084a9bcd4ab7061decf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0dcc761b5603633dc2ae17f88312742') in 0.031319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Dragon Warrior PNG/attack_03.png
-  artifactKey: Guid(080098adc5ac9cc428f1a442160eef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Dragon Warrior PNG/attack_03.png using Guid(080098adc5ac9cc428f1a442160eef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632f9fcbe3b9e37262199b7d485ff4d2') in 0.034978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png
-  artifactKey: Guid(257bfdf3ae592744cac390753b41b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Monsters_Creatures_Fantasy/Monsters_Creatures_Fantasy/Skeleton/Attack.png using Guid(257bfdf3ae592744cac390753b41b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeb5538b39d0e76ad670e7e863dfebd') in 0.033544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Sprites/The Dawn/The Dawn/Layers/6.png
-  artifactKey: Guid(db1fdceffc4f5f24cb1cc66806b01178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/The Dawn/The Dawn/Layers/6.png using Guid(db1fdceffc4f5f24cb1cc66806b01178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125203dcc8967b92cd76d86b29a1b9e7') in 0.042667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Dragon Warrior PNG/attack_01.png
-  artifactKey: Guid(2d81263c15e0870429e027cfa336f392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Dragon Warrior PNG/attack_01.png using Guid(2d81263c15e0870429e027cfa336f392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5784de75e75f57b72926acbcb50fcfc') in 0.040392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Sprites/Background_Hills_v1.0/_PNG/background1.png
-  artifactKey: Guid(498358185c1e8334ab46b1deb40a9ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background_Hills_v1.0/_PNG/background1.png using Guid(498358185c1e8334ab46b1deb40a9ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e936346f2d9e516c1c7c94e3d28c29e7') in 0.028073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.186387 seconds.
-  path: Assets/ParallaxBackground/Textures/Clouds.png
-  artifactKey: Guid(456937c099dbf3b4aafd49f0dfd4be9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParallaxBackground/Textures/Clouds.png using Guid(456937c099dbf3b4aafd49f0dfd4be9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831736250313bd1bfe04ea242ed30f43') in 0.108502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_03.png
-  artifactKey: Guid(b5396be67fea11741b097c1481fb5352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_03.png using Guid(b5396be67fea11741b097c1481fb5352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab2825922d48328c3660f4b20f87ecc') in 0.047552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000934 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/dashwind_06.png
-  artifactKey: Guid(96f5eb2ddc8448f47972a4894ee8f3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/dashwind_06.png using Guid(96f5eb2ddc8448f47972a4894ee8f3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1eb2c8450d2a883dfa6deb3a583a63') in 0.049695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/dashwind_01.png
-  artifactKey: Guid(087330196575cb349a5822e5936a769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/dashwind_01.png using Guid(087330196575cb349a5822e5936a769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcb78a69e21e6f5e895a40c5c7f56aa') in 0.042066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000557 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_02.png
-  artifactKey: Guid(8bd3f967242f3e242a60feeb90c7b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_02.png using Guid(8bd3f967242f3e242a60feeb90c7b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7009abbeb9c8d543dcf8bb36d9eada3') in 0.042367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/explosion_03.png
-  artifactKey: Guid(75a3e049c8703dd4c8c520102a77bd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/explosion_03.png using Guid(75a3e049c8703dd4c8c520102a77bd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1bfe7ecbe327dd89fc5482056ce02d') in 0.035853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/dashwind_03.png
-  artifactKey: Guid(994796bd09ad9ea4b910a4e8157e99b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/dashwind_03.png using Guid(994796bd09ad9ea4b910a4e8157e99b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88204c70236718c81d5469b58dc578a') in 0.026118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/dashwind_02.png
-  artifactKey: Guid(7ee76aa704bf5874e9c6b413729f72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/dashwind_02.png using Guid(7ee76aa704bf5874e9c6b413729f72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3470ed432667807f5a77e7609acbe1') in 0.026992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_06.png
-  artifactKey: Guid(4cb7b9b52e6ff634d996fa09d0a74305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_06.png using Guid(4cb7b9b52e6ff634d996fa09d0a74305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c471bb13a598b9429ba2f7133a7c4757') in 0.021733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_05.png
-  artifactKey: Guid(8cb1161cd4b52534ba2ec2922764d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_05.png using Guid(8cb1161cd4b52534ba2ec2922764d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859cc5ae644ac0a114fbaeb66e1e2638') in 0.039425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_01.png
-  artifactKey: Guid(ba8204987081496419081ce78d6917db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_01.png using Guid(ba8204987081496419081ce78d6917db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d455130592d45d0d527b3b2e11336e') in 0.023616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000794 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_04.png
-  artifactKey: Guid(11b06cbf4f893364d9735dbb77333dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/dashwind_04.png using Guid(11b06cbf4f893364d9735dbb77333dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27a0a2c0799261f557a25099506cf9c') in 0.044001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/explosion_02.png
-  artifactKey: Guid(a8a81f7163fa29442b63b47d751d64dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/explosion_02.png using Guid(a8a81f7163fa29442b63b47d751d64dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcfa6f1a3ab6dace68bb989f3d4db6b') in 0.026670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/explosion_03.png
-  artifactKey: Guid(c7306be4ce3c0a0469c3a9a2a2362408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/explosion_03.png using Guid(c7306be4ce3c0a0469c3a9a2a2362408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a186748eafc5b7b197e8e3e25a9ee3') in 0.022693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/explosion_02.png
-  artifactKey: Guid(10aa3a116ac3b5b48a4baafd59720ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/explosion_02.png using Guid(10aa3a116ac3b5b48a4baafd59720ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20024127bed118326c61fca1b525910') in 0.022688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/explosion_01.png
-  artifactKey: Guid(9c56ef6f982e8914daf8714d5bcd9cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/explosion_01.png using Guid(9c56ef6f982e8914daf8714d5bcd9cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3bc30728926390ef3f0f6488a11f9f') in 0.027550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/dashwind_04.png
-  artifactKey: Guid(de9714f3b21127e4196ebe9bd2163252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/dashwind_04.png using Guid(de9714f3b21127e4196ebe9bd2163252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6c885f730362890c84776598429f1e') in 0.018437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/explosion_01.png
-  artifactKey: Guid(293276643bb2ddd408d9145f15db23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/explosion_01.png using Guid(293276643bb2ddd408d9145f15db23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd659c20a2b3c91b5ecc65a6a9a6079') in 0.023195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Sprites/Dragon Warrior Files/Effects/dashwind_05.png
-  artifactKey: Guid(8a8fbecbb5021704b98e2180334900cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dragon Warrior Files/Effects/dashwind_05.png using Guid(8a8fbecbb5021704b98e2180334900cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e018dea7478e71363d2a09e6b08a3b1') in 0.023399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 229.806667 seconds.
-  path: Assets/Sprites/Knight Files
-  artifactKey: Guid(626ce1b22fa9dc345a665ad441d59f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files using Guid(626ce1b22fa9dc345a665ad441d59f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0bc882f214665795c72c38c7a84718') in 0.011250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.444494 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls
-  artifactKey: Guid(a9983a7d122bde041af3fab9b4bf30e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls using Guid(a9983a7d122bde041af3fab9b4bf30e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e17c3bea36864d90de4af1891660d9c') in 0.020102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050891 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/explosion_04.png
-  artifactKey: Guid(296ac19e2147e67408eed4611d3f93f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/explosion_04.png using Guid(296ac19e2147e67408eed4611d3f93f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b7c9bef05cecf035c294ebdc81762a') in 0.033278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/explosion_05.png
-  artifactKey: Guid(82e10937dee60ac49aab93107e008888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/explosion_05.png using Guid(82e10937dee60ac49aab93107e008888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b560885b6c4cdb7e95a2a5b0cac4cfb0') in 0.035308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/fireball_03.png
-  artifactKey: Guid(f2700661ee7c30b4aa6e91848f4d4a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/fireball_03.png using Guid(f2700661ee7c30b4aa6e91848f4d4a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599af76b563a9d338da51b1b2ceb678a') in 0.035712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/fireball_01.png
-  artifactKey: Guid(2c961366528f28c458c619797d0bbb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/fireball_01.png using Guid(2c961366528f28c458c619797d0bbb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acc34466c31e6be69526e9ec5ea74d0') in 0.038448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000642 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/explosion_06.png
-  artifactKey: Guid(5570ce90349bcee48ad72f984407eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/explosion_06.png using Guid(5570ce90349bcee48ad72f984407eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae7657f8a603808b7f47a1f3fd8c69a') in 0.043424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/particlel.png
-  artifactKey: Guid(6dec5c53ddfb4414b95f16b2cdde7280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/particlel.png using Guid(6dec5c53ddfb4414b95f16b2cdde7280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8803bb8fc2ee936b37dddc67ddc990') in 0.041055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/potion.png
-  artifactKey: Guid(98451d2a04ae2b54a9ec0ff4bc429fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/potion.png using Guid(98451d2a04ae2b54a9ec0ff4bc429fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f23dd0548cabf46464d78e2fa4f136c') in 0.041593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000867 seconds.
-  path: Assets/Sprites/Knight Files/Effect & FireBalls/fireball_02.png
-  artifactKey: Guid(827412c064980044da53686fae1670db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight Files/Effect & FireBalls/fireball_02.png using Guid(827412c064980044da53686fae1670db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a152f775698849d423de54df9b2dc460') in 0.033220 seconds 
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(b3d19ab14ed811f47b57640cd3fd4448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(b3d19ab14ed811f47b57640cd3fd4448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880ae0e295a68ed6957c14e8b30d19fc') in 0.038072 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008892 seconds.
+Registered in 0.003131 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.815 seconds
+- Completed reload, in  1.005 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1816ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (195ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1516ms)
-			LoadAssemblies (174ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (543ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (112ms)
-			SetupLoadedEditorAssemblies (472ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.9 MB.
-System memory in use after: 100.8 MB.
+Unloading 2221 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.2 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2692.
-Total: 4.621000 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.085300 ms MarkObjects: 4.164300 ms  DeleteObjects: 0.160200 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 3.581000 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.064400 ms MarkObjects: 3.052200 ms  DeleteObjects: 0.132300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -488,68 +194,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006818 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.149 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2150ms)
-		BeginReloadAssembly (226ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1769ms)
-			LoadAssemblies (229ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (692ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (521ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (161ms)
-				ProcessInitializeOnLoadAttributes (329ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.9 MB.
-System memory in use after: 100.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2695.
-Total: 4.601600 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.085300 ms MarkObjects: 4.143500 ms  DeleteObjects: 0.158200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 209.686924 seconds.
-  path: Assets/Animations/Fireball/Fireball.controller
-  artifactKey: Guid(0044ee7507e8d284993c19564839a762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Fireball/Fireball.controller using Guid(0044ee7507e8d284993c19564839a762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24de446eb1db739256e6efd0c705c063') in 0.072694 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,32 +1,29 @@
+using System;
 using UnityEngine;
 
-public class EnemyProjectile : EnemyDamage
+public class EnemyProjectile : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float resetTime;
+    [SerializeField] private float damage;
     private float _lifetime;
     private Animator _anim;
-    private BoxCollider2D _coll;
+    private BoxCollider2D _collider;
+    private float _direction;
+    
 
     private bool _hit;
 
     private void Awake()
     {
         _anim = GetComponent<Animator>();
-        _coll = GetComponent<BoxCollider2D>();
+        _collider = GetComponent<BoxCollider2D>();
     }
-
-    public void ActivateProjectile()
-    {
-        _hit = false;
-        _lifetime = 0;
-        gameObject.SetActive(true);
-        _coll.enabled = true;
-    }
+    
     private void Update()
     {
         if (_hit) return;
-        float movementSpeed = speed * Time.deltaTime;
+        var movementSpeed = speed * Time.deltaTime * _direction;
         transform.Translate(movementSpeed, 0, 0);
 
         _lifetime += Time.deltaTime;
@@ -34,13 +31,29 @@ public class EnemyProjectile : EnemyDamage
             gameObject.SetActive(false);
     }
 
+    public void SetDirection(float direction)
+    {
+        _lifetime = 0; 
+        _direction = direction;
+        gameObject.SetActive(true);
+        _hit = false;
+        _collider.enabled = true;
+
+        var localScaleX = transform.localScale.x;
+        if (Math.Sign(localScaleX) != direction)
+            localScaleX *= -1;
+        transform.localScale = new Vector3(localScaleX, transform.localScale.y, transform.localScale.z);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        transform.position = new Vector3(transform.position.x, transform.position.y + 0.2f, transform.position.z);
         _hit = true;
-        base.OnTriggerEnter2D(collision); 
-        _coll.enabled = false;
-        if(_anim != null)
-            _anim.SetTrigger("explode");
+        _collider.enabled = false;
+      
+        _anim.SetTrigger("explode");
+        if (collision.CompareTag("Player"))
+            collision.GetComponent<Health>().TakeDamage(damage);
     }
     private void Deactivate()
     {

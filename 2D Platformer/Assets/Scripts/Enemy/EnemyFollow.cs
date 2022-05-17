@@ -9,7 +9,6 @@ public class EnemyFollow : MonoBehaviour
     private Health _health;
     [SerializeField] private float zoneRadius;
     private Rigidbody2D body;
-    private SpriteRenderer sprite;
 
 
     private void Awake()
@@ -18,15 +17,21 @@ public class EnemyFollow : MonoBehaviour
         _animator = GetComponent<Animator>();
         _health = GetComponent<Health>();
         body = GetComponent<Rigidbody2D>();
-        sprite = GetComponent<SpriteRenderer>();
-    }   
+    }
+
+    private void FixedUpdate()
+    {
+        
+    }
 
     private void Update()
     {
         if (!CheckZone()) return;
-        sprite.flipX = transform.position.x >= _target.position.x;
+        transform.localScale = transform.position.x >= _target.position.x
+            ? new Vector3(Math.Abs(transform.localScale.x) * -1, transform.localScale.y, 1f)
+            : new Vector3(Math.Abs(transform.localScale.x), transform.localScale.y, 1f);
         if (!_health._dead)
-            body.velocity = new Vector2( speed * (sprite.flipX ? -1 : 1), body.velocity.y);
+            body.velocity = new Vector2(speed * (transform.position.x >= _target.position.x  ? -1 : 1), body.velocity.y);
         _animator.SetBool("moving", true);
     }
 

@@ -27,6 +27,11 @@ public class Mana : MonoBehaviour
     {
         CurrentMana = Mathf.Clamp(CurrentMana + mana, 0, maxMana);
     }
+    
+    public void RestoreManaToFull()
+    {
+        CurrentMana = maxMana;
+    }
 
     public float GetMaxMana()
     {

@@ -6,27 +6,29 @@ public class RangedEnemy : MonoBehaviour
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
     [SerializeField] private int damage;
+    [Header("Collider Parameters")]
+    [SerializeField] private float colliderDistance;
+    [SerializeField] private BoxCollider2D boxCollider;
+    [Header("Player Layer")]
+    [SerializeField] private LayerMask playerLayer;
+    
+    private float _cooldownTimer = Mathf.Infinity;
+    private Animator _animator;
+    private EnemyPatrol _enemyPatrol;
 
     [Header("Ranged Attack")] [SerializeField]
     private Transform firepoint;
 
     [SerializeField] private GameObject[] fireballs;
     
-    [Header("Collider Parameters")]
-    [SerializeField] private float colliderDistance;
-    [SerializeField] private BoxCollider2D boxCollider;
-    [Header("Player Layer")]
-    [SerializeField] private LayerMask playerLayer;
-    private float _cooldownTimer = Mathf.Infinity;
-
-    private Animator _animator;
-    private EnemyPatrol _enemyPatrol;
-    
     private void Awake()
     {
         _animator = GetComponent<Animator>();
         _enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        Physics2D.IgnoreCollision(boxCollider, GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
     }
+    
+   
     
     private void Update()
     {
@@ -35,6 +37,7 @@ public class RangedEnemy : MonoBehaviour
         if (PlayerInSight() && _cooldownTimer >= attackCooldown)
         {
             _cooldownTimer = 0;
+            _animator.SetBool("moving", false);
             _animator.SetTrigger("rangedAttack");
         }
 
@@ -54,7 +57,7 @@ public class RangedEnemy : MonoBehaviour
     {
         _cooldownTimer = 0;
         fireballs[FindFireball()].transform.position = firepoint.position;
-        fireballs[FindFireball()].GetComponent<EnemyProjectile>().ActivateProjectile();
+        fireballs[FindFireball()].GetComponent<EnemyProjectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
 
     private int FindFireball()

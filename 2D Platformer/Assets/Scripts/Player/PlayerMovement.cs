@@ -3,9 +3,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float deathLevel;
     private Rigidbody2D _body;
     private Animator _animator;
     private bool _isGrounded;
+    
 
     private void Awake()
     {
@@ -24,7 +26,9 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
 
         if (Input.GetKey(KeyCode.Space) && _isGrounded) Jump();
-
+        
+        if(transform.position.y < deathLevel)
+            GetComponent<GameController>().GameOver();
         _animator.SetBool("run", horizontalInput != 0);
         _animator.SetBool("grounded", _isGrounded);
     }

@@ -25,6 +25,7 @@ public class MeleeEnemy : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        Physics2D.IgnoreCollision(boxCollider, GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
     }
 
     private void Update()
@@ -41,6 +42,7 @@ public class MeleeEnemy : MonoBehaviour
         if (_enemyPatrol != null)
             _enemyPatrol.enabled = !PlayerInSight();
     }
+    
 
     private bool PlayerInSight()
     {

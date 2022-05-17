@@ -15,7 +15,6 @@ public class Health : MonoBehaviour
     [Header("Components")] [SerializeField]
     private Behaviour[] components;
 
-
     private void Awake()
     {
         CurrentHealth = maxHealth;
@@ -42,7 +41,7 @@ public class Health : MonoBehaviour
     {
         _anim.SetTrigger("die");
         if (gameObject.CompareTag("Enemy"))
-            FindObjectOfType<PlayerAttack>().playerMana.RestoreMana(maxHealth / 5);
+            FindObjectOfType<PlayerAttack>().playerMana.RestoreManaToFull();
         foreach (var component in components)
             component.enabled = false;
 

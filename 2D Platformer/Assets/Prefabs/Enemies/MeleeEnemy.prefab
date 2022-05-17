@@ -207,7 +207,6 @@ GameObject:
   - component: {fileID: 1108452817468987482}
   - component: {fileID: 5552036083359034852}
   - component: {fileID: 2119593674}
-  - component: {fileID: 2119593672}
   m_Layer: 11
   m_Name: MeleeEnemy
   m_TagString: Enemy
@@ -397,17 +396,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &2119593672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1108452817468987472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 775cfbdfa1673b24c9427072c34e08c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  zoneRadius: 6

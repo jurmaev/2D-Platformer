@@ -20,6 +20,7 @@ public class ProgressBar : MonoBehaviour
         aliveEnemies = allEnemies;
         progressBar.fillAmount = (allEnemies - aliveEnemies) / allEnemies;
         Debug.Log(allEnemies);
+        
     }
 
     void Update()
