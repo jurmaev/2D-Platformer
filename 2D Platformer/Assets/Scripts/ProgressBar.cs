@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,13 +21,14 @@ public class ProgressBar : MonoBehaviour
         allEnemies = enemies.Length;
         aliveEnemies = allEnemies;
         progressBar.fillAmount = (allEnemies - aliveEnemies) / allEnemies;
-        Debug.Log(allEnemies);
-        
     }
 
     void Update()
     {
-        aliveEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        var count = 0;
+        foreach (var enemy in enemies)
+            if (enemy.activeSelf) count++;
+        aliveEnemies = count;
         progressBar.fillAmount = Mathf.Lerp(progressBar.fillAmount, (allEnemies - aliveEnemies) / allEnemies,
             lerpSpeed * Time.deltaTime);
     }

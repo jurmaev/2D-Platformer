@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && _isGrounded) Jump();
         
         if(transform.position.y < deathLevel)
-            GetComponent<GameController>().GameOver();
+            GetComponent<Health>().Die();
         _animator.SetBool("run", horizontalInput != 0);
         _animator.SetBool("grounded", _isGrounded);
     }

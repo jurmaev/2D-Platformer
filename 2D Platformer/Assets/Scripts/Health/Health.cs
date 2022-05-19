@@ -8,8 +8,8 @@ public class Health : MonoBehaviour
     private Animator _anim;
     public bool _dead { get; private set; }
 
-    [Header("iFrames")] [SerializeField] private float iFramesDuration;
-    [SerializeField] private float numberOfFlashes;
+    // [Header("iFrames")] [SerializeField] private float iFramesDuration;
+    // [SerializeField] private float numberOfFlashes;
     private SpriteRenderer _spriteRenderer;
 
     [Header("Components")] [SerializeField]
@@ -29,7 +29,7 @@ public class Health : MonoBehaviour
         if (CurrentHealth > 0)
         {
             _anim.SetTrigger("hurt");
-            StartCoroutine(Invunerability());
+            // StartCoroutine(Invunerability());
         }
         else if (!_dead)
         {
@@ -58,19 +58,19 @@ public class Health : MonoBehaviour
         CurrentHealth = Mathf.Clamp(CurrentHealth + value, 0, maxHealth);
     }
 
-    private IEnumerator Invunerability()
-    {
-        Physics2D.IgnoreLayerCollision(10, 11, true);
-        for (var i = 0; i < numberOfFlashes; i++)
-        {
-            _spriteRenderer.color = new Color(1, 0, 0, .5f);
-            yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
-            _spriteRenderer.color = Color.white;
-            yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
-        }
-
-        Physics2D.IgnoreLayerCollision(10, 11, false);
-    }
+    // private IEnumerator Invunerability()
+    // {
+    //     Physics2D.IgnoreLayerCollision(10, 11, true);
+    //     for (var i = 0; i < numberOfFlashes; i++)
+    //     {
+    //         _spriteRenderer.color = new Color(1, 0, 0, .5f);
+    //              yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
+    //              _spriteRenderer.color = Color.white;
+    //              yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
+    //          }
+    //  
+    //          Physics2D.IgnoreLayerCollision(10, 11, false);
+    //      }
 
     private void Deactivate()
     {
