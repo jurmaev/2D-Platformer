@@ -52,7 +52,7 @@ public class MeleeEnemy : MonoBehaviour
             Vector2.left, 0, playerLayer);
         if (hit.collider != null)
             _playerHealth = hit.transform.GetComponent<Health>();
-        return hit.collider != null;
+        return hit.collider != null && hit.collider.CompareTag("Player");
     }
 
     private void OnDrawGizmos()
@@ -65,7 +65,7 @@ public class MeleeEnemy : MonoBehaviour
 
     private void DamagePlayer()
     {
-        if (PlayerInSight())
+        if (PlayerInSight() && _playerHealth != null)
             _playerHealth.TakeDamage(damage);
     }
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5765326793061428146}
   - component: {fileID: 5765326793061428156}
   - component: {fileID: 5765326793061428157}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HeartCollectible
   m_TagString: Untagged
   m_Icon: {fileID: 0}

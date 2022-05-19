@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 6425716903926977207}
   - component: {fileID: 1450282346436104601}
   - component: {fileID: 1661440405934908421}
+  - component: {fileID: 1050636449}
   m_Layer: 11
   m_Name: MovingMeleeEnemy
   m_TagString: Enemy
@@ -339,8 +340,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50
-  iFramesDuration: 0
-  numberOfFlashes: 0
   components:
   - {fileID: 1964259839543305993}
 --- !u!114 &1964259839543305993
@@ -375,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee44c781ba6d427499d3d1e073de5bdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 0
+  _damage: 3
 --- !u!50 &1450282346436104601
 Rigidbody2D:
   serializedVersion: 4
@@ -411,3 +410,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   zoneRadius: 6
+--- !u!61 &1050636449
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964259839543305987}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00515759, y: -0.0056447536}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 0.5}
+    newSize: {x: 5.12, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16444802, y: 0.3569992}
+  m_EdgeRadius: 0
