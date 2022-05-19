@@ -21,11 +21,6 @@ public class EnemyFollow : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
-    }
-
-    private void Update()
-    {
         if (!CheckZone()) return;
         transform.localScale = transform.position.x >= _target.position.x
             ? new Vector3(Math.Abs(transform.localScale.x) * -1, transform.localScale.y, 1f)
