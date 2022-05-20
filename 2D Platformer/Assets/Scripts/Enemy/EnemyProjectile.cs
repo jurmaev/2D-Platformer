@@ -6,18 +6,17 @@ public class EnemyProjectile : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float resetTime;
     [SerializeField] private float damage;
+    
     private float _lifetime;
     private Animator _anim;
     private BoxCollider2D _collider;
     private float _direction;
-    
-
     private bool _hit;
 
     private void Awake()
     {
-        _anim = GetComponent<Animator>();
         _collider = GetComponent<BoxCollider2D>();
+        _anim = GetComponent<Animator>();
     }
     
     private void Update()

@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  deathLevel: 0
 --- !u!95 &5938455692321268925
 Animator:
   serializedVersion: 3
@@ -276,11 +277,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  iFramesDuration: 0
-  numberOfFlashes: 0
   components:
-  - {fileID: 5938455692321268922}
   - {fileID: 5938455692321268912}
+  - {fileID: 5938455692321268922}
 --- !u!114 &1700857653
 MonoBehaviour:
   m_ObjectHideFlags: 0

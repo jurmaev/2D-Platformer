@@ -5,6 +5,7 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float damage;
+    [SerializeField] private float resetTime;
     private bool _hit;
     private float _direction;
     private float _lifetime;
@@ -25,7 +26,7 @@ public class Projectile : MonoBehaviour
         var movementSpeed = speed * Time.deltaTime * _direction;
         transform.Translate(movementSpeed, 0, 0);
         _lifetime += Time.deltaTime;
-        if(_lifetime > 5) gameObject.SetActive(false);
+        if(_lifetime > resetTime) gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D col)
