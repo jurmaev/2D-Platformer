@@ -10,7 +10,7 @@ public class Health : MonoBehaviour
 
     // [Header("iFrames")] [SerializeField] private float iFramesDuration;
     // [SerializeField] private float numberOfFlashes;
-    private SpriteRenderer _spriteRenderer;
+    // private SpriteRenderer _spriteRenderer;
 
     [Header("Components")] [SerializeField]
     private Behaviour[] components;
@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
     {
         CurrentHealth = maxHealth;
         _anim = GetComponent<Animator>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
+        // _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void TakeDamage(float damage)
@@ -44,7 +44,6 @@ public class Health : MonoBehaviour
             FindObjectOfType<PlayerAttack>().playerMana.RestoreManaToFull();
         foreach (var component in components)
             component.enabled = false;
-
         _dead = true;
     }
 

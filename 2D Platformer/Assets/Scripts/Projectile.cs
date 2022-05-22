@@ -36,7 +36,7 @@ public class Projectile : MonoBehaviour
         _hit = true;
         _animator.SetTrigger("explode");
         if (col.CompareTag("Enemy"))
-            col.GetComponent<Health>().TakeDamage(damage);
+            col.GetComponent<Health>().TakeDamage(damage / 2);
     }
 
     public void SetDirection(float direction)

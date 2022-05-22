@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     protected Animator _animator;
     protected EnemyPatrol _enemyPatrol;
     
-    private void Awake()
+    protected virtual void Awake()
     {
         _animator = GetComponent<Animator>();
         _enemyPatrol = GetComponentInParent<EnemyPatrol>();
