@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -7,7 +5,6 @@ public class Enemy : MonoBehaviour
     [Header("Attack Parameters")]
     [SerializeField] protected float attackCooldown;
     [SerializeField] protected float range;
-    [SerializeField] protected int damage;
     [Header("Collider Parameters")]
     [SerializeField] protected float colliderDistance;
     [SerializeField] protected BoxCollider2D boxCollider;
@@ -24,10 +21,13 @@ public class Enemy : MonoBehaviour
         _enemyPatrol = GetComponentInParent<EnemyPatrol>();
         Physics2D.IgnoreCollision(boxCollider, GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    private void OnDrawGizmosSelected()
     {
-        
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(
+            boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
+            new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
     }
+    
 }

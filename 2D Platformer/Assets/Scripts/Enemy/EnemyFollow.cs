@@ -6,6 +6,10 @@ public class EnemyFollow : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float zoneRadius;
     [SerializeField] private float jumpRadius;
+
+    [Header("Jump Zone Offset")] [SerializeField]
+    private float x;
+    [SerializeField] private float y;
     private Animator _animator;
     private Health _health;
     private Transform _target;
@@ -25,7 +29,7 @@ public class EnemyFollow : MonoBehaviour
     {
         _animator.SetBool("grounded", isGrounded);
         if (!CheckForPlayer()) return;
-        if(CheckForBlock())
+        if(CheckForBlock() && isGrounded)
             Jump();
         transform.localScale = transform.position.x >= _target.position.x
             ? new Vector3(Math.Abs(transform.localScale.x) * -1, transform.localScale.y, 1f)
@@ -37,7 +41,7 @@ public class EnemyFollow : MonoBehaviour
     
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, speed * 1.5f);
+        body.velocity = new Vector2(body.velocity.x, speed * 3f);
         _animator.SetTrigger("jump");
         isGrounded = false;
     }
@@ -62,7 +66,7 @@ public class EnemyFollow : MonoBehaviour
 
     private bool CheckForBlock()
     {
-        var objectsInZone = Physics2D.OverlapCircleAll(new Vector2(transform.position.x + Mathf.Sign(transform.localScale.x) * 0.9f, transform.position.y -0.3f), jumpRadius);
+        var objectsInZone = Physics2D.OverlapCircleAll(new Vector2(transform.position.x + Mathf.Sign(transform.localScale.x) * x, transform.position.y - y), jumpRadius);
         foreach(var obj in objectsInZone)
         {
             if (obj.CompareTag("Ground"))
@@ -75,7 +79,7 @@ public class EnemyFollow : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, zoneRadius);
-        Gizmos.DrawWireSphere(new Vector3(transform.position.x + Mathf.Sign(transform.localScale.x) * 0.9f, transform.position.y -0.3f, transform.position.z), jumpRadius);
+        Gizmos.DrawWireSphere(new Vector3(transform.position.x + Mathf.Sign(transform.localScale.x) * x, transform.position.y - y, transform.position.z), jumpRadius);
     }
     
     private void OnDisable()

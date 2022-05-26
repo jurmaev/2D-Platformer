@@ -1,32 +1,9 @@
 using UnityEngine;
 
-public class MeleeEnemy : MonoBehaviour
+public class MeleeEnemy : Enemy
 {
-    [Header("Attack Parameters")] [SerializeField]
-    private float attackCooldown;
-
-    [SerializeField] private float range;
-    [SerializeField] private int damage;
-
-    [Header("Collider Parameters")] [SerializeField]
-    private float colliderDistance;
-
-    [SerializeField] private BoxCollider2D boxCollider;
-
-    [Header("Player Layer")] [SerializeField]
-    private LayerMask playerLayer;
-
-    private float _cooldownTimer = Mathf.Infinity;
-    private Animator _animator;
+    [SerializeField] private float damage;
     private Health _playerHealth;
-    private EnemyPatrol _enemyPatrol;
-    
-    private void Awake()
-    {
-        _animator = GetComponent<Animator>();
-        _enemyPatrol = GetComponentInParent<EnemyPatrol>();
-        Physics2D.IgnoreCollision(boxCollider, GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
-    }
 
     private void Update()
     {
@@ -42,7 +19,7 @@ public class MeleeEnemy : MonoBehaviour
         if (_enemyPatrol != null)
             _enemyPatrol.enabled = !PlayerInSight();
     }
-    
+
 
     private bool PlayerInSight()
     {
@@ -53,14 +30,6 @@ public class MeleeEnemy : MonoBehaviour
         if (hit.collider != null)
             _playerHealth = hit.transform.GetComponent<Health>();
         return hit.collider != null && hit.collider.CompareTag("Player");
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(
-            boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
-            new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
     }
 
     private void DamagePlayer()

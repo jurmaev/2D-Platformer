@@ -15,11 +15,11 @@ C:/Users/jurmaev/UnityProjects/2D-Platformer/2D Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57869
+64003
 Successfully changed project path to: C:/Users/jurmaev/UnityProjects/2D-Platformer/2D Platformer
 C:/Users/jurmaev/UnityProjects/2D-Platformer/2D Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,269 +35,153 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001964 seconds.
+Registered in 0.003744 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 120.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
+- Completed reload, in  1.283 seconds
 Domain Reload Profiling:
-	ReloadAssembly (720ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (1284ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (407ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003708 seconds.
+Registered in 0.009273 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.915 seconds
+- Completed reload, in  1.264 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1916ms)
-		BeginReloadAssembly (189ms)
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1645ms)
-			LoadAssemblies (147ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (996ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (574ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (602ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (403ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (335ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.2 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2665.
-Total: 6.160100 ms (FindLiveObjects: 0.358700 ms CreateObjectMapping: 0.129500 ms MarkObjects: 5.412300 ms  DeleteObjects: 0.257600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Animations/Enemies/Pebble/Pebble.controller
-  artifactKey: Guid(c0b09dd857eb0114283329030505c857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Enemies/Pebble/Pebble.controller using Guid(c0b09dd857eb0114283329030505c857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55578181560cd802040a0b52ea62730') in 0.061893 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006455 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.667 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1668ms)
-		BeginReloadAssembly (206ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1337ms)
-			LoadAssemblies (168ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (513ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (443ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.4 MB.
-System memory in use after: 100.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2668.
-Total: 4.199200 ms (FindLiveObjects: 0.292500 ms CreateObjectMapping: 0.076600 ms MarkObjects: 3.674200 ms  DeleteObjects: 0.153800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006520 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.776 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1776ms)
-		BeginReloadAssembly (181ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1487ms)
-			LoadAssemblies (172ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (497ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (582ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (201ms)
-				ProcessInitializeOnLoadAttributes (335ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.4 MB.
-System memory in use after: 100.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2671.
-Total: 4.995100 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.088800 ms MarkObjects: 4.481200 ms  DeleteObjects: 0.153400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003695 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1035ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (850ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (344ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.4 MB.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.2 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2674.
-Total: 4.145800 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.107500 ms MarkObjects: 3.681000 ms  DeleteObjects: 0.125000 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 4.485200 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.099500 ms MarkObjects: 4.004500 ms  DeleteObjects: 0.141400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Levels/TestLevel.unity
+  artifactKey: Guid(b656bbec9d1d2b2489860549dd60b075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/TestLevel.unity using Guid(b656bbec9d1d2b2489860549dd60b075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433c541b3133667a0c462ef19ba91a79') in 0.025171 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1670ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1362ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (466ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 10.342200 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.141900 ms MarkObjects: 9.684500 ms  DeleteObjects: 0.245000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -313,519 +197,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013805 seconds.
+Registered in 0.005275 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.920 seconds
+- Completed reload, in  2.066 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1921ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (2067ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1640ms)
-			LoadAssemblies (185ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1766ms)
+			LoadAssemblies (182ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (590ms)
+			SetupTypeCache (676ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (554ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (613ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (192ms)
-				ProcessInitializeOnLoadAttributes (316ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (352ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 4.789600 ms (FindLiveObjects: 0.268100 ms CreateObjectMapping: 0.079600 ms MarkObjects: 4.261700 ms  DeleteObjects: 0.178300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 354.865245 seconds.
-  path: Assets/Prefabs/Enemies/Flying Eye/FlyingEnemy.prefab
-  artifactKey: Guid(52935e4a95f835c42b967e01d2de5263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Flying Eye/FlyingEnemy.prefab using Guid(52935e4a95f835c42b967e01d2de5263) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'FlyingEye': Transition 'Flight -> Attack' in state 'Flight' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'FlyingEye': Transition 'AnyState -> Hurt' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '08ac8f0165472f00919004a70c53ee12') in 0.176622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Prefabs/Enemies/Flying Eye/FlyingEnemyZone.prefab
-  artifactKey: Guid(7cf1e4c51622bdd4ca07affe1f28910f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Flying Eye/FlyingEnemyZone.prefab using Guid(7cf1e4c51622bdd4ca07affe1f28910f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'FlyingEye': Transition 'Flight -> Attack' in state 'Flight' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'FlyingEye': Transition 'AnyState -> Hurt' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'c18e65d77bb82075bcdab1d5108174dc') in 0.039434 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004063 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.847 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1848ms)
-		BeginReloadAssembly (228ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1491ms)
-			LoadAssemblies (224ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (533ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (495ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2687.
-Total: 6.718400 ms (FindLiveObjects: 0.502700 ms CreateObjectMapping: 0.122300 ms MarkObjects: 5.932500 ms  DeleteObjects: 0.158700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005034 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.870 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1871ms)
-		BeginReloadAssembly (203ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1573ms)
-			LoadAssemblies (187ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (465ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (604ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (391ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-Total: 4.774400 ms (FindLiveObjects: 0.225500 ms CreateObjectMapping: 0.085800 ms MarkObjects: 4.297400 ms  DeleteObjects: 0.163800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002824 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1047ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (855ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (302ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2693.
-Total: 4.651300 ms (FindLiveObjects: 0.374900 ms CreateObjectMapping: 0.073700 ms MarkObjects: 4.014100 ms  DeleteObjects: 0.186500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005497 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.657 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1657ms)
-		BeginReloadAssembly (173ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1383ms)
-			LoadAssemblies (153ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (539ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (492ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (324ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2696.
-Total: 4.066500 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.059700 ms MarkObjects: 3.604500 ms  DeleteObjects: 0.129500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004363 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.736 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1738ms)
-		BeginReloadAssembly (222ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1415ms)
-			LoadAssemblies (167ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (455ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (543ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (195ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.6 MB.
-System memory in use after: 103.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2699.
-Total: 8.073400 ms (FindLiveObjects: 1.821300 ms CreateObjectMapping: 0.673000 ms MarkObjects: 5.408200 ms  DeleteObjects: 0.167600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005072 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1158ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (129ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (331ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.6 MB.
-System memory in use after: 103.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2702.
-Total: 6.165800 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.059600 ms MarkObjects: 5.666200 ms  DeleteObjects: 0.194700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005831 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.996 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1999ms)
-		BeginReloadAssembly (193ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1699ms)
-			LoadAssemblies (183ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (489ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (768ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (230ms)
-				ProcessInitializeOnLoadAttributes (486ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.6 MB.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.3 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2705.
-Total: 6.908100 ms (FindLiveObjects: 0.476100 ms CreateObjectMapping: 0.164300 ms MarkObjects: 6.088200 ms  DeleteObjects: 0.177600 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2670.
+Total: 7.228400 ms (FindLiveObjects: 0.267600 ms CreateObjectMapping: 0.141700 ms MarkObjects: 6.542100 ms  DeleteObjects: 0.274900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -840,120 +254,344 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1070.713538 seconds.
-  path: Assets/Animations/Enemies/Flying Eye/Die.anim
-  artifactKey: Guid(14aab6fe7280b99468623c5caea76548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Enemies/Flying Eye/Die.anim using Guid(14aab6fe7280b99468623c5caea76548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a00dbee342e228dd4007d577c25d93b') in 0.029760 seconds 
+  Time since last request: 1842.864763 seconds.
+  path: Assets/Animations/Projectiles
+  artifactKey: Guid(0e78023b97e1c6a4c9b751f3d70d896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Projectiles using Guid(0e78023b97e1c6a4c9b751f3d70d896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1c555a652a9b41a452258b25040c9e') in 0.020371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 459.918966 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack1.png
+  artifactKey: Guid(bf76ff3b765bbfb4b887e9c4689d9fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack1.png using Guid(bf76ff3b765bbfb4b887e9c4689d9fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed15a4ea54629c84fb2ffb92631396a8') in 0.227390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.807051 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack1.png
+  artifactKey: Guid(bf76ff3b765bbfb4b887e9c4689d9fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack1.png using Guid(bf76ff3b765bbfb4b887e9c4689d9fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3632a9ce167d9b3e8deb03a8f286e6e') in 0.028535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.961913 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack2.png
+  artifactKey: Guid(b7196edc2eed9a045836230ba2cd0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack2.png using Guid(b7196edc2eed9a045836230ba2cd0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbfadcf794eb91fba17338c79ab5ff6') in 0.028708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight3.png
+  artifactKey: Guid(ce9ec41aaf09aa84c9cc5cbd689dde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight3.png using Guid(ce9ec41aaf09aa84c9cc5cbd689dde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9b98087a536365b41d20a169f7347c') in 0.027763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Hurt2.png
+  artifactKey: Guid(52374d59a40607d429c6d785ee718f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Hurt2.png using Guid(52374d59a40607d429c6d785ee718f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf1cbc176178c0a8eb4d2d546041bd1') in 0.024237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack6.png
+  artifactKey: Guid(acddcf677552e5349820f6e2c5f40543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack6.png using Guid(acddcf677552e5349820f6e2c5f40543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322d705433a509fb2edbb58bbf0ab8d7') in 0.025959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death4.png
+  artifactKey: Guid(f896aaf8393399043968dc61a98aaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death4.png using Guid(f896aaf8393399043968dc61a98aaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6195aab60f3b987266ccf8c60960a7cd') in 0.023910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack7.png
+  artifactKey: Guid(a7f90735afacab8429b06a18037af77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack7.png using Guid(a7f90735afacab8429b06a18037af77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2521c4c23b5030cedeb34aba5eff12d2') in 0.022787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack22.png
+  artifactKey: Guid(dd1cf1630166b8d40a4ab05cc169dacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack22.png using Guid(dd1cf1630166b8d40a4ab05cc169dacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659eeba9972e674e5155d635f2943260') in 0.024183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death1.png
+  artifactKey: Guid(298d23dd3ccd40f458cfd8b97ac0ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death1.png using Guid(298d23dd3ccd40f458cfd8b97ac0ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44659c9be7b2ea271b5bb76ac3c7f51') in 0.021275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight1.png
+  artifactKey: Guid(b79abff318947cf4c80620b7177729af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight1.png using Guid(b79abff318947cf4c80620b7177729af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6341d0ef4743838e8137a67c3f18f423') in 0.023036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle3.png
+  artifactKey: Guid(68cf9f29393f266449c13a4b36289de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle3.png using Guid(68cf9f29393f266449c13a4b36289de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456ad4ebf9d0dd4c7c4a6c1d0f7b4753') in 0.023758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack4.png
+  artifactKey: Guid(ac3cb1a4c9221af4e9faca6f16272af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack4.png using Guid(ac3cb1a4c9221af4e9faca6f16272af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3169535ea55ec5ceeee8289b983f603e') in 0.021419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack4.png
+  artifactKey: Guid(c4f9db2f39f6b1e4b9ce41c1db6e587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack4.png using Guid(c4f9db2f39f6b1e4b9ce41c1db6e587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53edace0256ea5a8c3915f35b1247fad') in 0.020404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack3.png
+  artifactKey: Guid(87b8785a3ed3a4e408bcc71e760b9bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack3.png using Guid(87b8785a3ed3a4e408bcc71e760b9bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3426e7dc11e0cfdb920a29f302c3b748') in 0.023186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack5.png
+  artifactKey: Guid(b608e747749c2cd4785dc2c155f8364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack5.png using Guid(b608e747749c2cd4785dc2c155f8364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a14372ca22e80546a38e34d23e1f4ca') in 0.021973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack9.png
+  artifactKey: Guid(1f6d43c9a19546b4daed07951e1128cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack9.png using Guid(1f6d43c9a19546b4daed07951e1128cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c82ea7d0018633f0f9a56386b9cb84') in 0.022313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight4.png
+  artifactKey: Guid(aa27cf728d9cdcd43a2596696ce6a17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight4.png using Guid(aa27cf728d9cdcd43a2596696ce6a17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0f996f2db1db9050a33147405e8d9e') in 0.020637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death5.png
+  artifactKey: Guid(06c061b21362a2b40a66b59e0c980ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death5.png using Guid(06c061b21362a2b40a66b59e0c980ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dce30bac4d717a265589796b8f07ed') in 0.022850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack3.png
+  artifactKey: Guid(b2b4d6f86b3a95f42a88b07d378056f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack3.png using Guid(b2b4d6f86b3a95f42a88b07d378056f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bb6eb1dccee1eb4460ca1893d79cce') in 0.020949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack8.png
+  artifactKey: Guid(9772ccba8ba5ca64fb9596af82b20812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack8.png using Guid(9772ccba8ba5ca64fb9596af82b20812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1070c144864b371824c970eea7437c68') in 0.023384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death3.png
+  artifactKey: Guid(f298c6c5d6a6c204cb9d476ca898bbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death3.png using Guid(f298c6c5d6a6c204cb9d476ca898bbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06079b7455caad234ff68da814fd59dc') in 0.023076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack11.png
+  artifactKey: Guid(913e204ea693b234e9ea8686f585da0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack11.png using Guid(913e204ea693b234e9ea8686f585da0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce50dd37d26332c986c5af4f3f98086e') in 0.022922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death2.png
+  artifactKey: Guid(8799399a10932e34984b0d9898bd7a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death2.png using Guid(8799399a10932e34984b0d9898bd7a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd9fabe22d3604d4ce16e79051f90e2') in 0.022947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack2.png
+  artifactKey: Guid(a22dddf1613d6b14fa915914f404b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack2.png using Guid(a22dddf1613d6b14fa915914f404b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e393d8a0280a738d6933765665fc4e0') in 0.021914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Hurt1.png
+  artifactKey: Guid(5ee5df3b291149d49bb0fff2d90eb145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Hurt1.png using Guid(5ee5df3b291149d49bb0fff2d90eb145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64095724dab1f062b21458dc232ede3') in 0.023728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle2.png
+  artifactKey: Guid(a57d9b73006c3e04398a89a4a4e31ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle2.png using Guid(a57d9b73006c3e04398a89a4a4e31ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6d2a2e8415d08f408c3cce5f78bd35') in 0.022169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death6.png
+  artifactKey: Guid(2aafc9f19929a184e97f8c56c08fa836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death6.png using Guid(2aafc9f19929a184e97f8c56c08fa836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a20c22c428edf3252d6cbc0f1c73988') in 0.021637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack10.png
+  artifactKey: Guid(9b28f226dfe19e349a2da3bea51a3d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack10.png using Guid(9b28f226dfe19e349a2da3bea51a3d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348ad961a6038a6146e3458adfe7a313') in 0.024992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack23.png
+  artifactKey: Guid(a55c753c515dc8c4c9aebf31a009a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack23.png using Guid(a55c753c515dc8c4c9aebf31a009a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0e4afdd1c1b755ad573dbfa8c64f8e') in 0.020943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle1.png
+  artifactKey: Guid(0f158a62520296444b9b4ae495854e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle1.png using Guid(0f158a62520296444b9b4ae495854e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3728a547f43b41c936011535c6872a89') in 0.023161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack1.png
+  artifactKey: Guid(78d35ac46bb46c947838bca2c5b184e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack1.png using Guid(78d35ac46bb46c947838bca2c5b184e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b62efad4fca4f3fb11b25ea2e358f1') in 0.022174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight2.png
+  artifactKey: Guid(16e3daa74516ba24cae9228573902b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight2.png using Guid(16e3daa74516ba24cae9228573902b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450fa30e6821f50032f6ee83ca52398b') in 0.024723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.087165 seconds.
+  path: Assets/Sprites/Knight Files/Knight PNG/Knight_walk_05.png
+  artifactKey: Guid(950268a606733494f8e4b356b0100a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight Files/Knight PNG/Knight_walk_05.png using Guid(950268a606733494f8e4b356b0100a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28b3f2544ef688754bd676182f2ac8a') in 0.050691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/Sprites/Knight Files/Knight PNG/Knight_win_01.png
+  artifactKey: Guid(9d7341a607e490544941ffda3017599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight Files/Knight PNG/Knight_win_01.png using Guid(9d7341a607e490544941ffda3017599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc3894f4d92f01e543e9393c50c4101') in 0.055555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Sprites/Knight Files/Knight PNG/Knight_win_02.png
+  artifactKey: Guid(f6117829ba948194c8a5a22cc9d3dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight Files/Knight PNG/Knight_win_02.png using Guid(f6117829ba948194c8a5a22cc9d3dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcbecc246d25c7b0f46f65258b2d278') in 0.054758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Sprites/Knight Files/Body Parts/Left Arm.png
+  artifactKey: Guid(79bfc252d4b629e42aae89f50be095af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight Files/Body Parts/Left Arm.png using Guid(79bfc252d4b629e42aae89f50be095af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfd4724c7aa08e2589af0224fa0dc60') in 0.051273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Sprites/Knight Files/Knight PNG/Knight_walk_06.png
+  artifactKey: Guid(969fce9da2f69834182f5618b7ec2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight Files/Knight PNG/Knight_walk_06.png using Guid(969fce9da2f69834182f5618b7ec2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295826c6e25bf6e757304c10aff9e35d') in 0.037924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062499 seconds.
+  path: Assets/Sprites/Ninja Files/Ninja PNG/Parts/Left hand.PNG
+  artifactKey: Guid(316f8ad96d8f7d24a9c46944f1f90902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Files/Ninja PNG/Parts/Left hand.PNG using Guid(316f8ad96d8f7d24a9c46944f1f90902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92560beeb88d580ab74f67d3e115b181') in 0.054086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Sprites/Low_Swordman/1.Sprite/Leg.png
+  artifactKey: Guid(72186849934bfde4484d95f21e9e9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Low_Swordman/1.Sprite/Leg.png using Guid(72186849934bfde4484d95f21e9e9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cec51b8024264931b5abae26fbe2db9') in 0.044112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Sprites/Ninja Files/Ninja PNG/Parts/lower torso.PNG
+  artifactKey: Guid(6cd044c635b91ba4da0beb1962421a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Files/Ninja PNG/Parts/lower torso.PNG using Guid(6cd044c635b91ba4da0beb1962421a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce01c368c2cc840e4645bdd8b6cad3c') in 0.047962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Sprites/Knight Files/Body Parts/Legs.png
+  artifactKey: Guid(62ee3ccb82dad494e87e6f58795f2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight Files/Body Parts/Legs.png using Guid(62ee3ccb82dad494e87e6f58795f2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c572183f3a0fa4588e99eb9f5bbd1dc1') in 0.042547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Sprites/Ninja Files/Ninja PNG/Parts/leg.PNG
+  artifactKey: Guid(813841653a476f14f8a9c5a713136559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Files/Ninja PNG/Parts/leg.PNG using Guid(813841653a476f14f8a9c5a713136559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da295077521387fdbb1bd5eac316b23') in 0.042908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Sprites/Knight Files/Body Parts/Legs 2.png
+  artifactKey: Guid(6292182f2b4ccd24bb2b316d0da5658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight Files/Body Parts/Legs 2.png using Guid(6292182f2b4ccd24bb2b316d0da5658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713c64612d8418cb860c0bc764825734') in 0.037508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.608516 seconds.
+  path: Assets/Sprites/Ninja Files/Ninja PNG/Parts/Feet.PNG
+  artifactKey: Guid(3b6c8db7bd30e8c4ab4de47918ed3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Files/Ninja PNG/Parts/Feet.PNG using Guid(3b6c8db7bd30e8c4ab4de47918ed3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df10f59d452f12c83ed421cd68153d1b') in 0.056538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.001911 seconds.
+  path: Assets/Sprites/Background_Hills_v1.0/_PSD/Hills.psd
+  artifactKey: Guid(515a155775d57f44a8cc49610455ed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Background_Hills_v1.0/_PSD/Hills.psd using Guid(515a155775d57f44a8cc49610455ed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d1ef11efe9a3d37aa7c7aa705e8c28') in 0.062814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.418034 seconds.
+  path: Assets/Animations/Enemies/Jinn/Attack.anim
+  artifactKey: Guid(8d5b23a622bef3f49bdf6a31500c14bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemies/Jinn/Attack.anim using Guid(8d5b23a622bef3f49bdf6a31500c14bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f84efaff39b787d683858c19685df3a') in 0.026520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.326152 seconds.
+  path: Assets/Animations/Enemies/Jinn/Die.anim
+  artifactKey: Guid(8aa10e294a909ca49af3b1e3e891d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemies/Jinn/Die.anim using Guid(8aa10e294a909ca49af3b1e3e891d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f6ad0373856f965034fd435aa40801') in 0.025789 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014047 seconds.
+Registered in 0.014351 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.965 seconds
+- Completed reload, in  1.600 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1966ms)
-		BeginReloadAssembly (281ms)
+	ReloadAssembly (1601ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (1531ms)
-			LoadAssemblies (256ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1317ms)
+			LoadAssemblies (155ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (511ms)
+			SetupTypeCache (483ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (549ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (477ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (184ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.6 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2708.
-Total: 7.694300 ms (FindLiveObjects: 0.327800 ms CreateObjectMapping: 0.155800 ms MarkObjects: 6.958200 ms  DeleteObjects: 0.249800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 237.593004 seconds.
-  path: Assets/Animations/Enemies/Pebble/Idle.anim
-  artifactKey: Guid(ef92a40f95e848e40a19ccf1efd8fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Enemies/Pebble/Idle.anim using Guid(ef92a40f95e848e40a19ccf1efd8fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316f9ad25be1d6466f105faa5f7e173c') in 0.042961 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005310 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.645 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1646ms)
-		BeginReloadAssembly (193ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1341ms)
-			LoadAssemblies (148ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (458ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (529ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (348ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 103.7 MB.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2711.
-Total: 7.803300 ms (FindLiveObjects: 0.285400 ms CreateObjectMapping: 0.134800 ms MarkObjects: 7.205000 ms  DeleteObjects: 0.176200 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2697.
+Total: 7.343700 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.147600 ms MarkObjects: 6.674700 ms  DeleteObjects: 0.215400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -967,57 +605,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 195.576056 seconds.
-  path: Assets/Animations/Enemies/Flying Eye/Flight.anim
-  artifactKey: Guid(605a7e0f336c17843879976b4fdd4ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Enemies/Flying Eye/Flight.anim using Guid(605a7e0f336c17843879976b4fdd4ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6548803e7c334e747d55ffa1ae54dbb1') in 0.036261 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003992 seconds.
+Registered in 0.005668 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.700 seconds
+- Completed reload, in  1.863 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1701ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (1864ms)
+		BeginReloadAssembly (167ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1431ms)
-			LoadAssemblies (156ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1593ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (456ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (545ms)
+			SetupTypeCache (533ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (589ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (204ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 103.8 MB.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2714.
-Total: 7.648200 ms (FindLiveObjects: 0.356500 ms CreateObjectMapping: 0.175700 ms MarkObjects: 6.872800 ms  DeleteObjects: 0.240700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2700.
+Total: 5.136900 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.138700 ms MarkObjects: 4.574800 ms  DeleteObjects: 0.159000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1031,133 +663,243 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 337.238517 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack1.png
+  artifactKey: Guid(bf76ff3b765bbfb4b887e9c4689d9fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack1.png using Guid(bf76ff3b765bbfb4b887e9c4689d9fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728862349083495abd6e8cc9ecfac072') in 0.116584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight3.png
+  artifactKey: Guid(ce9ec41aaf09aa84c9cc5cbd689dde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight3.png using Guid(ce9ec41aaf09aa84c9cc5cbd689dde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179b3632f42b152c7fd7a66ed98d383b') in 0.028974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Hurt2.png
+  artifactKey: Guid(52374d59a40607d429c6d785ee718f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Hurt2.png using Guid(52374d59a40607d429c6d785ee718f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c066c3d4aafca4c190304833918512a') in 0.023488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack6.png
+  artifactKey: Guid(acddcf677552e5349820f6e2c5f40543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack6.png using Guid(acddcf677552e5349820f6e2c5f40543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa3df1f9e610c328ae0f414188e846a') in 0.023513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death4.png
+  artifactKey: Guid(f896aaf8393399043968dc61a98aaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death4.png using Guid(f896aaf8393399043968dc61a98aaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de47d782bb82e083bcc8dd8ec7e24b5') in 0.022045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack7.png
+  artifactKey: Guid(a7f90735afacab8429b06a18037af77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack7.png using Guid(a7f90735afacab8429b06a18037af77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7930fde1b06938603426a825191e7cc3') in 0.023572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack22.png
+  artifactKey: Guid(dd1cf1630166b8d40a4ab05cc169dacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack22.png using Guid(dd1cf1630166b8d40a4ab05cc169dacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e97dbef146c3260b9109daa7d055c24') in 0.024012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death1.png
+  artifactKey: Guid(298d23dd3ccd40f458cfd8b97ac0ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death1.png using Guid(298d23dd3ccd40f458cfd8b97ac0ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d03ad21e7f729d7cc0f1410fb11e59') in 0.022138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight1.png
+  artifactKey: Guid(b79abff318947cf4c80620b7177729af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight1.png using Guid(b79abff318947cf4c80620b7177729af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd436dfaf60b2f114a223fe2fa7691e41') in 0.022911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle3.png
+  artifactKey: Guid(68cf9f29393f266449c13a4b36289de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle3.png using Guid(68cf9f29393f266449c13a4b36289de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3c2c414e49698b8cfdda57cc4bfb80') in 0.021558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000874 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack4.png
+  artifactKey: Guid(ac3cb1a4c9221af4e9faca6f16272af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack4.png using Guid(ac3cb1a4c9221af4e9faca6f16272af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ba799104b7acddd31464505d7257f3') in 0.023095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack4.png
+  artifactKey: Guid(c4f9db2f39f6b1e4b9ce41c1db6e587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack4.png using Guid(c4f9db2f39f6b1e4b9ce41c1db6e587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad6ceab42c200345fec7890291b5fbf') in 0.023208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack3.png
+  artifactKey: Guid(87b8785a3ed3a4e408bcc71e760b9bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack3.png using Guid(87b8785a3ed3a4e408bcc71e760b9bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d99f7a81b5a0b3e6bfb6996cd6678b') in 0.022043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack5.png
+  artifactKey: Guid(b608e747749c2cd4785dc2c155f8364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack5.png using Guid(b608e747749c2cd4785dc2c155f8364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8116bb7ba55bdcdabee8fcfbef1d06f6') in 0.022757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack9.png
+  artifactKey: Guid(1f6d43c9a19546b4daed07951e1128cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack9.png using Guid(1f6d43c9a19546b4daed07951e1128cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0913e676b27c84467bda0b0716afd1') in 0.022980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight4.png
+  artifactKey: Guid(aa27cf728d9cdcd43a2596696ce6a17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight4.png using Guid(aa27cf728d9cdcd43a2596696ce6a17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62000c019c108332130242eeb4eb64ab') in 0.024323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death5.png
+  artifactKey: Guid(06c061b21362a2b40a66b59e0c980ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death5.png using Guid(06c061b21362a2b40a66b59e0c980ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3d1bb81efb0de2638c7233b3b9c554') in 0.021045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack3.png
+  artifactKey: Guid(b2b4d6f86b3a95f42a88b07d378056f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack3.png using Guid(b2b4d6f86b3a95f42a88b07d378056f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36513d2d0a4f71ee041b0464a8bfced') in 0.023588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack8.png
+  artifactKey: Guid(9772ccba8ba5ca64fb9596af82b20812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack8.png using Guid(9772ccba8ba5ca64fb9596af82b20812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10dbca6b5fba6bea7e85d0fb8db2e59') in 0.021102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack2.png
+  artifactKey: Guid(b7196edc2eed9a045836230ba2cd0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Attack2.png using Guid(b7196edc2eed9a045836230ba2cd0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ea1862a1e605083eec69436268681f') in 0.020548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death3.png
+  artifactKey: Guid(f298c6c5d6a6c204cb9d476ca898bbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death3.png using Guid(f298c6c5d6a6c204cb9d476ca898bbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a39c2c62630f057983be86ddb19d0d9') in 0.019236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack11.png
+  artifactKey: Guid(913e204ea693b234e9ea8686f585da0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack11.png using Guid(913e204ea693b234e9ea8686f585da0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4ff5f7cb6f8810397bcc640b8f3d1f') in 0.021788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death2.png
+  artifactKey: Guid(8799399a10932e34984b0d9898bd7a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death2.png using Guid(8799399a10932e34984b0d9898bd7a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16419194671f62f4a5e860ee3d0c52f8') in 0.017819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack2.png
+  artifactKey: Guid(a22dddf1613d6b14fa915914f404b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack2.png using Guid(a22dddf1613d6b14fa915914f404b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2263cd388cbb353821fcde2140b05dc') in 0.018658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Hurt1.png
+  artifactKey: Guid(5ee5df3b291149d49bb0fff2d90eb145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Hurt1.png using Guid(5ee5df3b291149d49bb0fff2d90eb145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619bdb0ba29b37b93f01eaced542b011') in 0.015800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle2.png
+  artifactKey: Guid(a57d9b73006c3e04398a89a4a4e31ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle2.png using Guid(a57d9b73006c3e04398a89a4a4e31ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f76889731daf82b9431fb569d177f2') in 0.022323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death6.png
+  artifactKey: Guid(2aafc9f19929a184e97f8c56c08fa836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Death6.png using Guid(2aafc9f19929a184e97f8c56c08fa836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5446f1e9e679f1fcaf95f6176e9afa0') in 0.018823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack10.png
+  artifactKey: Guid(9b28f226dfe19e349a2da3bea51a3d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack10.png using Guid(9b28f226dfe19e349a2da3bea51a3d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ff41c255f0747f5eff9781a6da15fb') in 0.020518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack23.png
+  artifactKey: Guid(a55c753c515dc8c4c9aebf31a009a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack23.png using Guid(a55c753c515dc8c4c9aebf31a009a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d4742a2e6c58e3162c579836693d8a') in 0.021077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle1.png
+  artifactKey: Guid(0f158a62520296444b9b4ae495854e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Idle1.png using Guid(0f158a62520296444b9b4ae495854e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed87977e6193afbc9481f085cefe5ac') in 0.021012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack1.png
+  artifactKey: Guid(78d35ac46bb46c947838bca2c5b184e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Magic_Attack1.png using Guid(78d35ac46bb46c947838bca2c5b184e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dbb7852c5f430a7adef3579bc3d37c') in 0.020292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight2.png
+  artifactKey: Guid(16e3daa74516ba24cae9228573902b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/free-rpg-monster-sprites-pixel-art/PNG/jinn_animation/Flight2.png using Guid(16e3daa74516ba24cae9228573902b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85935e4a4e7d5b59c5d9b71739d42d3a') in 0.022334 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006521 seconds.
+Registered in 0.005211 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.927 seconds
+- Completed reload, in  1.844 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1928ms)
-		BeginReloadAssembly (203ms)
+	ReloadAssembly (1845ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1622ms)
-			LoadAssemblies (165ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1504ms)
+			LoadAssemblies (177ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (560ms)
+			SetupTypeCache (530ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (569ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (585ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (194ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2717.
-Total: 4.726700 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.088700 ms MarkObjects: 4.229300 ms  DeleteObjects: 0.164500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 230.107462 seconds.
-  path: Assets/Sprites/Ninja Files/Ninja PNG/Items & FireBall/fireball 2.png
-  artifactKey: Guid(4c7f18f1274f4084d98959dd8fa5b0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ninja Files/Ninja PNG/Items & FireBall/fireball 2.png using Guid(4c7f18f1274f4084d98959dd8fa5b0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7c3b456e7adb8194208a3cdf0a38fa') in 0.197190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/Sprites/Ninja Files/Ninja PNG/Items & FireBall/fireball 3.png
-  artifactKey: Guid(e12def1f392e15740bf167c1e2512f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ninja Files/Ninja PNG/Items & FireBall/fireball 3.png using Guid(e12def1f392e15740bf167c1e2512f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2ee92158c3eff21c7addc27df546be') in 0.039711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Sprites/Ninja Files/Ninja PNG/Items & FireBall/fireball 4.png
-  artifactKey: Guid(05270ae50883518448c456db9c8d82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ninja Files/Ninja PNG/Items & FireBall/fireball 4.png using Guid(05270ae50883518448c456db9c8d82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13bd7439d508d67cfe73e4f827550bb') in 0.042163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Sprites/Ninja Files/Ninja PNG/Items & FireBall/fireball 1.png
-  artifactKey: Guid(c8307a4528f7acd4f8fd04dad4794113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ninja Files/Ninja PNG/Items & FireBall/fireball 1.png using Guid(c8307a4528f7acd4f8fd04dad4794113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091310d5ac41f46f29c08d4fe4be0f29') in 0.039929 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005581 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.771 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1772ms)
-		BeginReloadAssembly (286ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (99ms)
-		EndReloadAssembly (1391ms)
-			LoadAssemblies (206ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (589ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadAttributes (350ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 103.9 MB.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2724.
-Total: 7.657900 ms (FindLiveObjects: 0.310500 ms CreateObjectMapping: 0.157900 ms MarkObjects: 6.927800 ms  DeleteObjects: 0.259000 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2704.
+Total: 7.301800 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.143500 ms MarkObjects: 6.647800 ms  DeleteObjects: 0.230900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1173,49 +915,177 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008101 seconds.
+Registered in 0.007040 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.874 seconds
+- Completed reload, in  1.925 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1875ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (1926ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (1546ms)
-			LoadAssemblies (199ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1626ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (572ms)
+			SetupTypeCache (487ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (461ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (663ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 4.779800 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.086200 ms MarkObjects: 4.289100 ms  DeleteObjects: 0.182900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 311.278322 seconds.
+  path: Assets/Prefabs/Projectiles/EnemyFireball.prefab
+  artifactKey: Guid(9457bd549b8cd544abf3b5cec451bf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/EnemyFireball.prefab using Guid(9457bd549b8cd544abf3b5cec451bf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bea7bcd0a8978897683114acb26f0d') in 0.122837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 411.267719 seconds.
+  path: Assets/Prefabs/Projectiles/MagicProjectile.prefab
+  artifactKey: Guid(290b30e59c735614c910d635c2446a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/MagicProjectile.prefab using Guid(290b30e59c735614c910d635c2446a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61af5562e33a22cdc2de6ff481edbfa6') in 0.056369 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015969 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1615ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1277ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (456ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (473ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 103.9 MB.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.6 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2727.
-Total: 5.786200 ms (FindLiveObjects: 0.293300 ms CreateObjectMapping: 0.147500 ms MarkObjects: 5.075400 ms  DeleteObjects: 0.268200 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2714.
+Total: 4.628700 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.089200 ms MarkObjects: 4.131000 ms  DeleteObjects: 0.163500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004026 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1094ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 4.690900 ms (FindLiveObjects: 0.240900 ms CreateObjectMapping: 0.069400 ms MarkObjects: 4.097200 ms  DeleteObjects: 0.281700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1230,187 +1100,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 599.045470 seconds.
-  path: Assets/Animations/Enemies/Pebble/Run.anim
-  artifactKey: Guid(7db84465a0135d04eb1ccc69678f0d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Enemies/Pebble/Run.anim using Guid(7db84465a0135d04eb1ccc69678f0d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e05b89d2d8682fcf691945fdb0e9f3') in 0.024459 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002731 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.861 seconds
-Domain Reload Profiling:
-	ReloadAssembly (861ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (706ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (256ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (155ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 103.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2730.
-Total: 3.767800 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.118700 ms MarkObjects: 3.204600 ms  DeleteObjects: 0.128500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002725 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.865 seconds
-Domain Reload Profiling:
-	ReloadAssembly (865ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (712ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (260ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 104.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2733.
-Total: 3.327700 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.118200 ms MarkObjects: 2.809500 ms  DeleteObjects: 0.132700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002728 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
-Domain Reload Profiling:
-	ReloadAssembly (858ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (703ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (246ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (253ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 104.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2736.
-Total: 3.941800 ms (FindLiveObjects: 0.240800 ms CreateObjectMapping: 0.064900 ms MarkObjects: 3.504100 ms  DeleteObjects: 0.130400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 172.127225 seconds.
+  path: Assets/Prefabs/Projectiles/MagicProjectile.prefab
+  artifactKey: Guid(290b30e59c735614c910d635c2446a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/MagicProjectile.prefab using Guid(290b30e59c735614c910d635c2446a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8b1b7b34cfba2cc003f467db62f848') in 0.099844 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 632.428407 seconds.
-  path: Assets/Animations/Enemies/Pebble/Pebble.controller
-  artifactKey: Guid(c0b09dd857eb0114283329030505c857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Enemies/Pebble/Pebble.controller using Guid(c0b09dd857eb0114283329030505c857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061651331eec90edaab1b868a5021168') in 0.016819 seconds 
+  Time since last request: 2.299649 seconds.
+  path: Assets/Prefabs/Projectiles/MagicProjectile.prefab
+  artifactKey: Guid(290b30e59c735614c910d635c2446a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/MagicProjectile.prefab using Guid(290b30e59c735614c910d635c2446a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcd64005a1bd82936486197045cc1fe') in 0.029052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.805021 seconds.
+  path: Assets/Prefabs/Projectiles/MagicProjectile.prefab
+  artifactKey: Guid(290b30e59c735614c910d635c2446a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/MagicProjectile.prefab using Guid(290b30e59c735614c910d635c2446a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af996c9dcfdd25b31863eb016250cecc') in 0.027145 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009055 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jurmaev\UnityProjects\2D-Platformer\2D Platformer\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.820 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1821ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1558ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (612ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (554ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2721.
+Total: 5.282900 ms (FindLiveObjects: 0.368700 ms CreateObjectMapping: 0.144000 ms MarkObjects: 4.599600 ms  DeleteObjects: 0.168700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

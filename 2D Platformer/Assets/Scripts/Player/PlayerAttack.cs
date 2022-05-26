@@ -49,7 +49,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if (enemy.GetComponent<Health>() is null) continue;
             var enemyHealth = enemy.GetComponent<Health>();
-            enemyHealth.TakeDamage(meleeDamage / 2);
+            enemyHealth.TakeDamage(meleeDamage);
         }
     }
 

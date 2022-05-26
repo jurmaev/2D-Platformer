@@ -1,13 +1,10 @@
-
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ManaBar : MonoBehaviour
 {
     [SerializeField] private Mana playerMana;
-
     [SerializeField] private Image totalManaBar;
-
     [SerializeField] private Image currentManaBar;
     
     private void Start()

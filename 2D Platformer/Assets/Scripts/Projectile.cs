@@ -3,15 +3,15 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    [SerializeField] private float damage;
-    [SerializeField] private float resetTime;
-    private bool _hit;
-    private float _direction;
-    private float _lifetime;
+    [SerializeField] protected float speed;
+    [SerializeField] protected float damage;
+    [SerializeField] protected float resetTime;
+    protected bool _hit;
+    protected float _direction;
+    protected float _lifetime;
     
-    private BoxCollider2D _collider;
-    private Animator _animator;
+    protected BoxCollider2D _collider;
+    protected Animator _animator;
 
     private void Awake()
     {
@@ -36,7 +36,7 @@ public class Projectile : MonoBehaviour
         _hit = true;
         _animator.SetTrigger("explode");
         if (col.CompareTag("Enemy"))
-            col.GetComponent<Health>().TakeDamage(damage / 2);
+            col.GetComponent<Health>().TakeDamage(damage);
     }
 
     public void SetDirection(float direction)

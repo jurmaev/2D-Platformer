@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3464413749586193416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3464413750173146832}
+  - component: {fileID: 3464413749554428111}
+  m_Layer: 0
+  m_Name: MeleeNinjaPatrol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3464413750173146832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464413749586193416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.019941, y: -0.3201943, z: -3.2899883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3464413750538364329}
+  - {fileID: 3464413750675636795}
+  - {fileID: 4245825516289893087}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3464413749554428111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464413749586193416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0d9d535aa2050469e98a78ccdad467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftEdge: {fileID: 3464413750538364329}
+  rightEdge: {fileID: 3464413750675636795}
+  enemy: {fileID: 4245825516289893087}
+  speed: 2
+  idleDuration: 1
+  animator: {fileID: 4245825516289893081}
+--- !u!1 &3464413750538364330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3464413750538364329}
+  m_Layer: 0
+  m_Name: LeftEdge
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3464413750538364329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464413750538364330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.9, y: -1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3464413750173146832}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3464413750675636740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3464413750675636795}
+  m_Layer: 0
+  m_Name: RightEdge
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3464413750675636795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464413750675636740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6, y: -1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3464413750173146832}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3859074953135176328
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3464413750173146832}
+    m_Modifications:
+    - target: {fileID: 1108452817468987472, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_Name
+      value: MeleeNinja
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.92655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.336771
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+--- !u!4 &4245825516289893087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1108452817468987479, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+  m_PrefabInstance: {fileID: 3859074953135176328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4245825516289893081 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1108452817468987473, guid: d320baa8d47358149a7c4bff36a93cc8, type: 3}
+  m_PrefabInstance: {fileID: 3859074953135176328}
+  m_PrefabAsset: {fileID: 0}

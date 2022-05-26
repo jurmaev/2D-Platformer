@@ -1,21 +1,16 @@
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ProgressBar : MonoBehaviour
 {
     private GameObject[] enemies;
-
     private float allEnemies;
-
     private float aliveEnemies;
 
     [SerializeField] private float lerpSpeed;
-
     [SerializeField] private Image progressBar;
 
-    void Start()
+    private void Start()
     {
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
         allEnemies = enemies.Length;
@@ -23,7 +18,7 @@ public class ProgressBar : MonoBehaviour
         progressBar.fillAmount = (allEnemies - aliveEnemies) / allEnemies;
     }
 
-    void Update()
+    private void Update()
     {
         var count = 0;
         foreach (var enemy in enemies)
