@@ -27,7 +27,7 @@ public class EnemyPatrol : MonoBehaviour
         _initScale = enemy.localScale;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (_movingLeft)
         {

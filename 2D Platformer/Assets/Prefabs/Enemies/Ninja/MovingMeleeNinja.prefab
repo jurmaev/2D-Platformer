@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 6425716903926977207}
   - component: {fileID: 1450282346436104601}
   - component: {fileID: 1661440405934908421}
-  - component: {fileID: 1050636449}
+  - component: {fileID: 610419510549685698}
   m_Layer: 11
   m_Name: MovingMeleeNinja
   m_TagString: Enemy
@@ -413,8 +413,8 @@ MonoBehaviour:
   jumpRadius: 0.4
   x: 0.9
   y: 0.3
---- !u!61 &1050636449
-BoxCollider2D:
+--- !u!70 &610419510549685698
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -426,16 +426,6 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00515759, y: -0.0056447536}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.5}
-    newSize: {x: 5.12, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.16444802, y: 0.3569992}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.005281687, y: -0.006188199}
+  m_Size: {x: 0.17606306, y: 0.36471298}
+  m_Direction: 0

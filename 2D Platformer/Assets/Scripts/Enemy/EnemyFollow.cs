@@ -15,6 +15,8 @@ public class EnemyFollow : MonoBehaviour
     private Transform _target;
     private Rigidbody2D body;
     private bool isGrounded;
+    
+    private EnemyPatrol _enemyPatrol;
 
 
     private void Awake()
@@ -23,11 +25,14 @@ public class EnemyFollow : MonoBehaviour
         _animator = GetComponent<Animator>();
         _health = GetComponent<Health>();
         body = GetComponent<Rigidbody2D>();
+        _enemyPatrol = GetComponentInParent<EnemyPatrol>();
     }
 
     private void FixedUpdate()
     {
         _animator.SetBool("grounded", isGrounded);
+        if (_enemyPatrol != null)
+            _enemyPatrol.enabled = !CheckForPlayer();
         if (!CheckForPlayer()) return;
         if(CheckForBlock() && isGrounded)
             Jump();
@@ -38,7 +43,7 @@ public class EnemyFollow : MonoBehaviour
             body.velocity = new Vector2(speed * (transform.position.x >= _target.position.x  ? -1 : 1), body.velocity.y);
         _animator.SetBool("moving", true);
     }
-    
+
     private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, speed * 3f);

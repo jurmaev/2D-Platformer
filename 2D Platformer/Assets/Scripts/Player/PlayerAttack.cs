@@ -47,6 +47,7 @@ public class PlayerAttack : MonoBehaviour
         var hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (var enemy in hitEnemies)
         {
+            if (enemy.GetType() != typeof(BoxCollider2D)) continue;
             if (enemy.GetComponent<Health>() is null) continue;
             var enemyHealth = enemy.GetComponent<Health>();
             enemyHealth.TakeDamage(meleeDamage);

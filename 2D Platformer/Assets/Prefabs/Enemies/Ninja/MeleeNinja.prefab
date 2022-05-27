@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 1108452817468987482}
   - component: {fileID: 5552036083359034852}
   - component: {fileID: 2119593674}
-  - component: {fileID: 1997821778074751013}
+  - component: {fileID: 1834924808}
   m_Layer: 11
   m_Name: MeleeNinja
   m_TagString: Enemy
@@ -395,8 +395,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &1997821778074751013
-BoxCollider2D:
+--- !u!70 &1834924808
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -408,16 +408,6 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00907433, y: -0.0075434446}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.5}
-    newSize: {x: 5.12, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.16340375, y: 0.35760677}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.007674217, y: -0.0010759383}
+  m_Size: {x: 0.16913891, y: 0.38281074}
+  m_Direction: 0

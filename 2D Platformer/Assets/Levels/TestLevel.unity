@@ -6973,7 +6973,7 @@ PrefabInstance:
       objectReference: {fileID: 28223511}
     - target: {fileID: 5938455692321268923, guid: 501504e4f5a0b364a8cc1ef74827a901, type: 3}
       propertyPath: maxHealth
-      value: 10000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5938455692321268923, guid: 501504e4f5a0b364a8cc1ef74827a901, type: 3}
       propertyPath: components.Array.data[2]
