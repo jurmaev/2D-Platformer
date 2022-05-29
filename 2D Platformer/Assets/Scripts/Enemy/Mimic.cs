@@ -5,11 +5,6 @@ public class Mimic : MeleeEnemy
     [SerializeField] private float zoneRadius;
     [SerializeField] private float lickCooldown;
     [SerializeField] private float jumpForce;
-    // [SerializeField] private float x;
-    // [SerializeField] private float y;
-    // [SerializeField] private float jumpRadius;
-    // [SerializeField] private float jumpCooldown;
-    // private float jumpTimer;
     private float _lickTimer = Mathf.Infinity;
     private Rigidbody2D body;
     private bool isGrounded;
@@ -23,18 +18,15 @@ public class Mimic : MeleeEnemy
     private void FixedUpdate()
     {
         _lickTimer += Time.fixedDeltaTime;
-        // jumpTimer += Time.fixedDeltaTime;
         if (CheckForPlayer() && _lickTimer >= lickCooldown)
         {
             Lick();
             _lickTimer = 0;
         }
 
-        if (body.velocity.x != 0 && isGrounded )
+        if (Mathf.Abs(body.velocity.x) > 1e-5 && isGrounded )
         {
-            // _animator.SetTrigger("jump");
             Jump();
-            // jumpTimer = 0;
         }
     }
 
@@ -46,7 +38,6 @@ public class Mimic : MeleeEnemy
     private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, jumpForce);
-        // _animator.SetTrigger("jump");
         isGrounded = false;
     }
 
@@ -68,21 +59,6 @@ public class Mimic : MeleeEnemy
         _animator.SetBool("moving", false);
         return false;
     }
-
-    // private bool CheckForBlock()
-    // {
-    //     var objectsInZone = Physics2D.OverlapCircleAll(
-    //         new Vector2(transform.position.x + Mathf.Sign(transform.localScale.x) * x, transform.position.y - y),
-    //         jumpRadius);
-    //     foreach (var obj in objectsInZone)
-    //     {
-    //         if (obj.CompareTag("Ground"))
-    //             return true;
-    //     }
-    //
-    //     _animator.SetBool("moving", false);
-    //     return false;
-    // }
 
     private void OnDrawGizmosSelected()
     {

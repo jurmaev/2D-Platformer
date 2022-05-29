@@ -13,11 +13,15 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject[] stars;
     [SerializeField] private Text endOfLevel;
     [SerializeField] private GameObject[] buttons;
+    [SerializeField] private GameObject gameWonScreen;
+    [SerializeField] private Health bossHealth;
 
     private void Update()
     {
         if(playerHealth._dead)
             Invoke(nameof(GameOver), GameOverDelay);
+        if(bossHealth != null && bossHealth._dead)
+            Invoke(nameof(GameWon), GameOverDelay);
     }
 
     public void CompleteLevel()
@@ -45,6 +49,16 @@ public class GameController : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    private void GameWon()
+    {
+        gameWonScreen.SetActive(true);
     }
 
     public void GameOver()

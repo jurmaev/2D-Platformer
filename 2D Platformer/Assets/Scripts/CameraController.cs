@@ -3,13 +3,14 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform player;
-    [SerializeField] private float aheadDistance;
+    [SerializeField] private Vector3 cameraOffset; 
     [SerializeField] private float cameraSpeed;
     private float _lookAhead;
 
-    private void Update()
+    private void FixedUpdate()
     {
-        transform.position = new Vector3(player.position.x + _lookAhead, player.position.y, transform.position.z);
-        _lookAhead = Mathf.Lerp(_lookAhead, aheadDistance * player.localScale.x, Time.deltaTime * cameraSpeed);
+        var targetPosition = player.position + cameraOffset;
+        var smoothPosition = Vector3.Lerp(transform.position, new Vector3(targetPosition.x, transform.position.y, targetPosition.z), cameraSpeed * Time.fixedDeltaTime);
+        transform.position = smoothPosition;
     }
 }
