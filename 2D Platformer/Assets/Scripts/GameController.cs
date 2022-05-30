@@ -24,6 +24,11 @@ public class GameController : MonoBehaviour
             Invoke(nameof(GameWon), GameOverDelay);
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     public void CompleteLevel()
     {
         Time.timeScale = 0;
