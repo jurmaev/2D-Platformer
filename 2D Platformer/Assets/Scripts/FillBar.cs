@@ -4,10 +4,9 @@ using UnityEngine.UI;
 public class FillBar : MonoBehaviour
 {
     [SerializeField] private Image bar;
-    [SerializeField] private Image totalBar;
-
     [SerializeField] private float lerpSpeed;
-    void Start()
+
+    private void Start()
     {
         bar.fillAmount = 1;
     }
@@ -19,5 +18,4 @@ public class FillBar : MonoBehaviour
         var healthColor = Color.Lerp(Color.red, Color.green, current / total);
         bar.color = healthColor;
     }
-    
 }

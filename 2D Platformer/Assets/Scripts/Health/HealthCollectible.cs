@@ -6,7 +6,7 @@ public class HealthCollectible : MonoBehaviour
 
     private void Awake()
     {
-        Physics2D.IgnoreLayerCollision(10, 12);
+        Physics2D.IgnoreLayerCollision(8, 12);
     }
 
     private void OnTriggerEnter2D(Collider2D col)

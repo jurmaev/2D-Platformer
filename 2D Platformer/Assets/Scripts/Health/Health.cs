@@ -1,37 +1,25 @@
-using System.Collections;
 using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [Header("Health")] [SerializeField] private float maxHealth;
     public float CurrentHealth { get; private set; }
-    private Animator _anim;
-    public bool _dead { get; private set; }
+    public bool Dead { get; private set; }
 
-    // [Header("iFrames")] [SerializeField] private float iFramesDuration;
-    // [SerializeField] private float numberOfFlashes;
-    // private SpriteRenderer _spriteRenderer;
+
+    [Header("Health")] [SerializeField] private float maxHealth;
+    private Animator _anim;
 
     [Header("Components")] [SerializeField]
     private Behaviour[] components;
 
-    private void Awake()
-    {
-        CurrentHealth = maxHealth;
-        _anim = GetComponent<Animator>();
-        // _spriteRenderer = GetComponent<SpriteRenderer>();
-    }
 
     public void TakeDamage(float damage)
     {
         CurrentHealth -= damage;
 
         if (CurrentHealth > 0)
-        {
             _anim.SetTrigger("hurt");
-            // StartCoroutine(Invunerability());
-        }
-        else if (!_dead)
+        else if (!Dead)
         {
             Die();
         }
@@ -41,10 +29,10 @@ public class Health : MonoBehaviour
     {
         _anim.SetTrigger("die");
         if (gameObject.CompareTag("Enemy"))
-            FindObjectOfType<PlayerAttack>().playerMana.RestoreManaToFull();
+            FindObjectOfType<PlayerAttack>().playerMana.RestoreMana(maxHealth / 2.5f);
         foreach (var component in components)
             component.enabled = false;
-        _dead = true;
+        Dead = true;
     }
 
     public float GetMaxHealth()
@@ -57,19 +45,12 @@ public class Health : MonoBehaviour
         CurrentHealth = Mathf.Clamp(CurrentHealth + value, 0, maxHealth);
     }
 
-    // private IEnumerator Invunerability()
-    // {
-    //     Physics2D.IgnoreLayerCollision(10, 11, true);
-    //     for (var i = 0; i < numberOfFlashes; i++)
-    //     {
-    //         _spriteRenderer.color = new Color(1, 0, 0, .5f);
-    //              yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
-    //              _spriteRenderer.color = Color.white;
-    //              yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
-    //          }
-    //  
-    //          Physics2D.IgnoreLayerCollision(10, 11, false);
-    //      }
+    private void Awake()
+    {
+        CurrentHealth = maxHealth;
+        _anim = GetComponent<Animator>();
+    }
+
 
     private void Deactivate()
     {

@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  deathLevel: 0
+  deathLevel: -3
 --- !u!95 &5938455692321268925
 Animator:
   serializedVersion: 3
@@ -257,7 +257,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   attackPoint: {fileID: 1376791828}
-  attackRange: 0.6
+  attackRange: 0.8
   enemyLayers:
     serializedVersion: 2
     m_Bits: 2048

@@ -10,15 +10,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected BoxCollider2D boxCollider;
     [Header("Player Layer")]
     [SerializeField] protected LayerMask playerLayer;
-    
-    protected float _cooldownTimer = Mathf.Infinity;
-    protected Animator _animator;
-    protected EnemyPatrol _enemyPatrol;
+    protected float CooldownTimer = Mathf.Infinity;
+    protected Animator Animator;
+    protected EnemyPatrol EnemyPatrol;
     
     protected virtual void Awake()
     {
-        _animator = GetComponent<Animator>();
-        _enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        Animator = GetComponent<Animator>();
+        EnemyPatrol = GetComponentInParent<EnemyPatrol>();
        Physics2D.IgnoreCollision(boxCollider, GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
        
     }

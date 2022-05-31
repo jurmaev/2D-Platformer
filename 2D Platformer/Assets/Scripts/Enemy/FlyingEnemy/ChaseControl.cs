@@ -5,10 +5,10 @@ public class ChaseControl : MonoBehaviour
 {
     [SerializeField] private FlyingEnemy[] enemies;
 
-    // private void Awake()
-    // {
-    //     Physics2D.IgnoreCollision(gameObject.GetComponent<BoxCollider2D>(), GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
-    // }
+    private void Awake()
+    {
+        Physics2D.IgnoreLayerCollision(9, 12);
+    }
 
     private void OnTriggerEnter2D(Collider2D col)
     {

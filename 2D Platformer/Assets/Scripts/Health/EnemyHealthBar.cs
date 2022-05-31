@@ -7,7 +7,7 @@ public class EnemyHealthBar : MonoBehaviour
     [SerializeField] private float lerpSpeed;
     [SerializeField] private Image healthBar;
 
-    void Update()
+    private void Update()
     {
         healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, enemyHealth.CurrentHealth / enemyHealth.GetMaxHealth(),
             lerpSpeed * Time.deltaTime);

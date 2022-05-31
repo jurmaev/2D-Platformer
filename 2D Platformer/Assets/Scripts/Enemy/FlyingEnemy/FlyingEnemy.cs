@@ -1,28 +1,23 @@
-using System;
 using UnityEngine;
 
 public class FlyingEnemy : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private Transform startingPosition;
-    [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private float damage;
     public bool chase;
     private Animator _animator;
-
-
-    private GameObject player;
+    private GameObject _player;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
-        // Physics2D.IgnoreCollision(boxCollider, GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>());
-        player = GameObject.FindGameObjectWithTag("Player");
+        _player = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void Update()
     {
-        if (player == null)
+        if (_player == null)
             return;
         if (chase)
         {
@@ -39,7 +34,8 @@ public class FlyingEnemy : MonoBehaviour
 
     private void ChasePlayer()
     {
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+        transform.position =
+            Vector2.MoveTowards(transform.position, _player.transform.position, speed * Time.deltaTime);
     }
 
     private void ReturnStartingPosition()
@@ -49,7 +45,7 @@ public class FlyingEnemy : MonoBehaviour
 
     private void Flip()
     {
-        if (transform.position.x < player.transform.position.x)
+        if (transform.position.x < _player.transform.position.x)
             transform.rotation = Quaternion.Euler(0, 0, 0);
         else
             transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -57,7 +53,7 @@ public class FlyingEnemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.CompareTag("Player"))
+        if (col.CompareTag("Player"))
             col.GetComponent<Health>().TakeDamage(damage);
     }
 }

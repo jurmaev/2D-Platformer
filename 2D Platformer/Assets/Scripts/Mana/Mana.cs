@@ -2,15 +2,8 @@ using UnityEngine;
 
 public class Mana : MonoBehaviour
 {
-    [SerializeField] private float maxMana;
-
     public float CurrentMana { get; private set; }
-    
-    
-    private void Awake()
-    {
-        CurrentMana = maxMana;
-    }
+    [SerializeField] private float maxMana;
 
     public bool SpendMana(float mana)
     {
@@ -27,7 +20,7 @@ public class Mana : MonoBehaviour
     {
         CurrentMana = Mathf.Clamp(CurrentMana + mana, 0, maxMana);
     }
-    
+
     public void RestoreManaToFull()
     {
         CurrentMana = maxMana;
@@ -36,5 +29,10 @@ public class Mana : MonoBehaviour
     public float GetMaxMana()
     {
         return maxMana;
+    }
+
+    private void Awake()
+    {
+        CurrentMana = maxMana;
     }
 }

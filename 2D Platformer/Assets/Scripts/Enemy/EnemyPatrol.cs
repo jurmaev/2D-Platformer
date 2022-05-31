@@ -4,21 +4,15 @@ public class EnemyPatrol : MonoBehaviour
 {
     [Header("Patrol Points")] [SerializeField]
     private Transform leftEdge;
-
     [SerializeField] private Transform rightEdge;
-
     [Header("Enemy")] [SerializeField] private Transform enemy;
-
     [Header("Movement parameters")] [SerializeField]
     private float speed;
-
     private Vector3 _initScale;
     private bool _movingLeft;
-
     [Header("Idle Behaviour")] [SerializeField]
     private float idleDuration;
     private float _idleTimer;
-
     [Header("Enemy Animator")] [SerializeField]
     private Animator animator;
 

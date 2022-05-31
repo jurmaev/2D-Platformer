@@ -7,7 +7,11 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _body;
     private Animator _animator;
     private bool _isGrounded;
-    
+
+    public bool CanShoot()
+    {
+        return Input.GetAxis("Horizontal") == 0 && _isGrounded;
+    }
 
     private void Awake()
     {
@@ -26,8 +30,8 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
 
         if (Input.GetKey(KeyCode.Space) && _isGrounded) Jump();
-        
-        if(transform.position.y < deathLevel)
+
+        if (transform.position.y < deathLevel)
             GetComponent<Health>().Die();
         _animator.SetBool("run", horizontalInput != 0);
         _animator.SetBool("grounded", _isGrounded);
@@ -44,10 +48,5 @@ public class PlayerMovement : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Ground"))
             _isGrounded = true;
-    }
-
-    public bool CanShoot()
-    {
-        return Input.GetAxis("Horizontal") == 0 && _isGrounded;
     }
 }
