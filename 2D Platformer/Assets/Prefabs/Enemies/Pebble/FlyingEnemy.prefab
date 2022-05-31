@@ -183,8 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   startingPosition: {fileID: 0}
-  boxCollider: {fileID: 7198634088908703309}
-  damage: 3
+  damage: 4
   chase: 0
 --- !u!1 &7819564410774277610
 GameObject:

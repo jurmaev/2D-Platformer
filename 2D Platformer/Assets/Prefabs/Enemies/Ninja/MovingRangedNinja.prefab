@@ -521,6 +521,7 @@ MonoBehaviour:
   maxHealth: 30
   components:
   - {fileID: 6707323269329274548}
+  - {fileID: 7218334508853328783}
 --- !u!114 &6707323269329274548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,7 +565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee44c781ba6d427499d3d1e073de5bdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 3
+  damage: 3
 --- !u!50 &1380310269873337074
 Rigidbody2D:
   serializedVersion: 4

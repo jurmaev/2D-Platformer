@@ -2270,6 +2270,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 99843496986510389, guid: 4a3b65f94151b4946b1fb468f30dc261, type: 3}
+      propertyPath: damage
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3707246497064940156, guid: 4a3b65f94151b4946b1fb468f30dc261, type: 3}
       propertyPath: m_Name
       value: SmallDragonHolder
